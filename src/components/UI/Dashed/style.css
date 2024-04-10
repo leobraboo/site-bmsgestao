@@ -1,0 +1,11 @@
+.dashed {
+  max-height: 1rem;
+  border-radius: 5px;
+  background-color: #e8f1f2;
+}
+
+@media screen and (max-width: 465px) {
+  .dashed {
+    width: 200px!important;
+  }
+}
