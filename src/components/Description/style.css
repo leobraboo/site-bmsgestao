@@ -1,0 +1,135 @@
+.container-maps {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #001532;
+  gap: 4rem;
+  height: 100vh;
+}
+
+.content-img-maps {
+  width: 50%;
+  display: flex;
+  background: transparent;
+}
+
+.btn-free-maps{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  cursor: pointer;
+  background: #0087f5;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 1.7rem;
+  border-radius: 5px;
+  border: none;
+  transition: ease-in all 0.2s;
+  box-shadow: 0px 12px 4px -10px rgb(61 61 61 / 78%);
+}
+
+.btn-free-maps:hover{
+  background: #015fad;
+  cursor: pointer;
+}
+
+.free-btn-maps{
+  z-index: 700;
+}
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.scroll-reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.description-maps {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 80vh;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.description-maps p {
+  font-size: 1.6rem;
+}
+
+.title-maps {
+  font-size: 3.5rem;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.subtitle-maps {
+  font-size: 2rem;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.description-maps p {
+  font-size: 1.4rem;
+  color: whitesmoke;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+  .container-maps {
+    padding: 0 2rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .description-maps {
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 4rem;
+  }
+
+  .btn-free-maps{
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .content-img-maps {
+    width: 600px;
+  }
+
+  .description-maps {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .img-maps {
+    width: 300px!important;
+    height: 400px!important;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .subtitle-maps{
+    font-size: 2rem;
+  }
+
+  .description-maps p {
+    text-align: center;
+  }
+
+  .btn-free-maps{
+    padding: 1.5rem;
+  }
+
+  .content-img-maps{
+    display: none;
+  }
+}
