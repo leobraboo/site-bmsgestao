@@ -18,7 +18,7 @@ export function Description() {
       </div>
 
       <div className="description-maps">
-        <h2 className="subtitle-maps">Gestão de Vendas</h2>
+        <h2 className="subtitle-maps">Gestão de Vendas Completo</h2>
         <p>Completo Frente de Caixa, Orçamentos, Vendas e Ordem de Serviço.</p>
         <h2 className="subtitle-maps">Gestão Financeira</h2>
         <p>Tenha controle da saúde financeira do seu negócio.</p>

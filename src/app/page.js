@@ -3,6 +3,7 @@ import { Header } from "@/components/Header"
 import { Initial } from "@/components/Initial"
 import { Description } from "@/components/Description"
 import { Stars } from "@/components/Stars"
+import { Plans } from "@/components/Plans"
 import { PreFooter } from "@/components/PreFooter"
 import { Footer } from "@/components/Footer"
 
@@ -14,6 +15,7 @@ export default function Home() {
       </Header>
       <Description />
       <Stars />
+      <Plans />
       <PreFooter />
       <Footer />
     </>

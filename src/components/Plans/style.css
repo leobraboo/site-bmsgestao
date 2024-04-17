@@ -1,0 +1,182 @@
+.container-Plans {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 3rem 6rem 3rem;
+  width: 100%;
+  gap: 4rem;
+  background-image: url(/bg-secundary.png);
+  background-size: cover;
+}
+
+.content-card-Plans {
+  display: flex;
+  width: 100%;
+}
+
+.contentcard-Plans{
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  gap: 1rem;
+}
+
+.content-btns-card-Plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 4rem;
+}
+
+.title-Plans {
+  font-size: 2.7rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 70%;
+}
+
+.content-Plans {
+  width: 100%;
+  position: relative;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns-Plans {
+  display: none;
+}
+
+.card-Plans{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  height: 40vh;
+  border: 1px solid #efefee;
+  border-radius: 20px;
+  color: white;
+}
+
+.card-Plans:hover{
+  background: #001026;
+}
+
+.arrow-left-Plans, .arrow-right-Plans {
+  cursor: pointer;
+  padding: 1rem;
+  color: #ff7f00;
+}
+
+.titletestimony-Plans{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.free-btn-Plans{
+  text-align: center;
+
+}
+
+.testimony-Plans{
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1.4rem;
+  cursor: context-menu;
+}
+
+.name-testimony-Plans{
+  display: flex;
+  flex-direction: column;
+}
+
+.item-testimony-Plans{
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: context-menu;
+}
+
+@media screen and (min-width: 1200px){
+  .content-Star {
+    max-width: 1200px;
+  }
+
+  .card-Plans {
+    max-width: 384px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .card-Plans{
+    width: 100%;
+  }  
+}  
+
+@media screen and (max-width: 992px){
+  .btns-Plans {
+    display: block;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .content-Plans {
+    width: 100%;
+    gap: 35rem;
+    transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  }
+  
+  .content-card-Plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .testimony-Plans {
+    font-size: 1.4rem;
+  }
+  .name-testimony-Plans{
+    font-size: 1.5rem;
+  }
+
+  .container-Plans{
+    padding: 4rem 3rem;
+  }
+
+  .card-Plans {
+    min-width: 80%;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+  }
+
+  .title-Plans{
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 500px){ 
+  .card-Plans {
+    min-width: 98%;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+
+  .arrow-left-Plans, .arrow-right-Plans {
+    width: 30px;
+    padding: 0;
+  }
+}
+
