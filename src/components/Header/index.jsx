@@ -8,7 +8,7 @@ export function Header({ children }) {
   const handleClient = () => {
     window.open("https://bmsgestao.bmsltda.com.br");
   };
-  const phoneNumber = "31995011485";
+  const phoneNumber = "3138919414";
   const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\D/g, "")}`;
 
   const redirectToWhatsApp = () => {

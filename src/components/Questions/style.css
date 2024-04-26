@@ -57,8 +57,10 @@
   }
   .question-Questions {
     font-size: 2rem;
+    text-align: center;
   }
   .answer-Questions {
     font-size: 1.3rem;
+    text-align: center;
   }
 }
