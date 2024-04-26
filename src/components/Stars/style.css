@@ -114,13 +114,11 @@
     justify-content: space-between;
     width: 100%;
   }
-  
   .content-Stars {
     width: 100%;
     gap: 35rem;
     transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
   }
-  
   .content-card-Stars {
     display: flex;
     justify-content: center;
@@ -129,33 +127,32 @@
     overflow: hidden;
     width: 100%;
   }
-
   .testimony-Stars {
     font-size: 1.4rem;
+  }
+  .titletestimony-Stars{
+    flex-direction: column;
   }
   .name-testimony-Stars{
     font-size: 1.5rem;
   }
-
   .container-Stars{
-    padding: 4rem 3rem;
+    padding: 2rem;
   }
-
   .card-Stars {
-    min-width: 80%;
-    width: 100%;
+    width: 320px;
     justify-content: space-evenly;
     gap: 1.5rem;
+    height: auto;
   }
-
   .title-Stars{
-    font-size: 2.5rem;
+    font-size: 2rem;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 500px){ 
   .card-Stars {
-    min-width: 98%;
     justify-content: space-between;
     gap: 4rem;
   }

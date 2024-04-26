@@ -6,7 +6,7 @@ export function Description() {
     window.open("https://pedidos.bmspedidos.com.br/register");
   };
   return (
-    <section className="container-maps">
+    <section id="funcionalidades" className="container-maps">
       <div className="content-img-maps">
         <Image
           className="img-maps"
@@ -15,6 +15,10 @@ export function Description() {
           height={400}
           alt="maps image"
         />
+        <span>
+          Um sistema WEB. Acesse de onde estiver. <br />
+          Compatível com TABLET.
+        </span>
       </div>
 
       <div className="description-maps">
@@ -26,7 +30,7 @@ export function Description() {
         <p>Regularize a sua operação de forma rápida e simples.</p>
         <div className="free-btn-maps">
           <button onClick={handleMaps} className="btn-free-maps">
-            Quero Melhorar Minhas Entregas
+            Teste Gratuitamente por 15 dias
           </button>
         </div>
       </div>

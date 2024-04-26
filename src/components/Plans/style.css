@@ -126,13 +126,11 @@
     justify-content: space-between;
     width: 100%;
   }
-  
   .content-Plans {
     width: 100%;
     gap: 35rem;
     transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
   }
-  
   .content-card-Plans {
     display: flex;
     justify-content: center;
@@ -141,27 +139,25 @@
     overflow: hidden;
     width: 100%;
   }
-
   .testimony-Plans {
     font-size: 1.4rem;
   }
   .name-testimony-Plans{
     font-size: 1.5rem;
   }
-
   .container-Plans{
-    padding: 4rem 3rem;
+    padding: 2rem;
+    gap: 1.5rem;
   }
-
   .card-Plans {
     min-width: 80%;
     width: 100%;
     justify-content: space-evenly;
     gap: 1.5rem;
   }
-
   .title-Plans{
     font-size: 2.5rem;
+    width: 100%;
   }
 }
 
@@ -169,7 +165,6 @@
   .card-Plans {
     min-width: 98%;
     justify-content: space-between;
-    gap: 4rem;
   }
 
   .arrow-left-Plans, .arrow-right-Plans {

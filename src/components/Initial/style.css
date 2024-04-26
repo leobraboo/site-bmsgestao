@@ -1,7 +1,7 @@
 .container-reduce-more {
   display: flex;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-image: url(../../../public/bg-initial.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,13 +19,19 @@
 }
 
 .description-reduce-more span {
-  font-size: 2rem;
+  font-size: 2.2rem;
+  display: flex;
+  text-align: center;
+}
+
+.pre-footer-reduce-more{
+  font-size: 1.8rem !important;
   display: flex;
   text-align: center;
 }
 
 .title-reduce-more {
-  font-size: 3rem;
+  font-size: 3.3rem;
   font-weight: bold;
 }
 
@@ -66,6 +72,7 @@
 @media screen and (max-width: 768px) {
   .container-reduce-more {
     justify-content: flex-end;
+    padding: 2rem;
   }
 
   .description-reduce-more {
@@ -79,21 +86,12 @@
 
   .pre-footer-reduce-more{
   text-align: center;
-
   }
 
-  .phone-reduce-more {
-    width: 0;
-    height: 0;
-  }
 }
 
 @media screen and (max-width: 600px) {
   .description-reduce-more {
     width: 100%;
-  }
-
-  .container-reduce-more {
-    padding: 5rem 3rem;
   }
 }

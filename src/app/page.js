@@ -5,6 +5,7 @@ import { Description } from "@/components/Description"
 import { Stars } from "@/components/Stars"
 import { Plans } from "@/components/Plans"
 import { Questions } from "@/components/Questions"
+import { Tutorials } from "@/components/Tutorials"
 import { PreFooter } from "@/components/PreFooter"
 import { Footer } from "@/components/Footer"
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Stars />
       <Plans />
       <Questions />
+      <Tutorials />
       <PreFooter />
       <Footer />
     </>

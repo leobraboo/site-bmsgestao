@@ -50,8 +50,8 @@ export function Stars() {
 
   const next = () => {
     setPosition((prevPosition) => {
-      let newPosition = prevPosition - widthCardStar.current.offsetWidth - 420;
-      if (newPosition < -1270) {
+      let newPosition = prevPosition - widthCardStar.current.offsetWidth - 400;
+      if (newPosition < -1200) {
         newPosition = (newPosition / (cardStars.length - 1)) * -1;
       }
 
@@ -61,8 +61,8 @@ export function Stars() {
 
   const prev = () => {
     setPosition((prevPosition) => {
-      let newPosition = prevPosition + widthCardStar.current.offsetWidth + 420;
-      if (newPosition > 1270) {
+      let newPosition = prevPosition + widthCardStar.current.offsetWidth + 400;
+      if (newPosition > 1200) {
         newPosition = (newPosition / (cardStars.length - 1)) * 1;
       }
 
@@ -83,7 +83,7 @@ export function Stars() {
   }, []);
 
   return (
-    <section className="container-Stars">
+    <section id="depoimentos" className="container-Stars">
       <div className="title-Stars">
         CONHEÇA A OPINIÃO DE QUEM JÁ ESCOLHEU <br /> O BMS GESTÃO PARA O SEU
         NEGÓCIO:

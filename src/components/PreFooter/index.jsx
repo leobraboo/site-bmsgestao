@@ -7,7 +7,7 @@ import {
 
 export function PreFooter() {
   const handleInstagram = () => {
-    window.open("https://www.instagram.com/bms.pedidos/");
+    window.open("https://www.instagram.com/bms_gestao/");
   };
 
   const handleFacebook = () => {
@@ -15,14 +15,14 @@ export function PreFooter() {
   };
 
   const handleYoutube = () => {
-    window.open("https://pedidos.bmspedidos.com.br/register");
+    window.open("https://www.youtube.com/@BmsSoftwares");
   };
   return (
     <section className="container-pre-footer">
+      <span  className="title-pre-footer">Revolucione a maneira como você gerencia o seu negócio HOJE!</span>
       <span>
-        Revolucione a maneira como você gerencia o seu negócio HOJE! Confie em
-        quem está há mais de 25 anos no mercado, promovendo soluções para micro
-        e pequenas empresas através da tecnologia.
+        Confie em quem está há mais de 25 anos no mercado, promovendo soluções
+        para micro e pequenas empresas através da tecnologia.
       </span>
       <span> Nos acompanhe nas nossas redes sociais</span>
       <div className="content-logo-footer">
@@ -32,7 +32,7 @@ export function PreFooter() {
         <div onClick={handleFacebook} className="logo-footer">
           <IoLogoFacebook style={{ width: "100%", height: "100%" }} />
         </div>
-        <div onClick={handleInstagram} className="logo-footer">
+        <div onClick={handleYoutube} className="logo-footer">
           <IoLogoYoutube style={{ width: "100%", height: "100%" }} />
         </div>
       </div>

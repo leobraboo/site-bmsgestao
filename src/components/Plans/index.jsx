@@ -4,7 +4,7 @@ import { Button } from "../UI";
 
 export function Plans() {
   return (
-    <section className="container-Plans">
+    <section id="planos" className="container-Plans">
       <div className="title-Plans">
         Temos o Plano Ideal para o tamanho da sua empresa:
       </div>

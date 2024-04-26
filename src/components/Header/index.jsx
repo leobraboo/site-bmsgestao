@@ -6,10 +6,10 @@ import { PiWhatsappLogoDuotone } from "react-icons/pi";
 
 export function Header({ children }) {
   const handleClient = () => {
-    window.open('https://bmsgestao.bmsltda.com.br');
+    window.open("https://bmsgestao.bmsltda.com.br");
   };
-  const phoneNumber = '31995011485';
-  const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\D/g, '')}`;
+  const phoneNumber = "31995011485";
+  const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\D/g, "")}`;
 
   const redirectToWhatsApp = () => {
     window.open(whatsappUrl);
@@ -42,6 +42,7 @@ export function Header({ children }) {
                 zIndex: 9999,
                 width: "100%",
                 padding: 0,
+                color: "black",
                 backgroundColor: "#ffffffcc",
                 transition: "ease-in all 0.1s",
               }
@@ -56,36 +57,36 @@ export function Header({ children }) {
             height={60}
             alt="Logo Company"
           />
-
-
         </div>
 
         <nav className="nav-right-header">
-        <nav className="nav-left-header">
+          <nav className="nav-left-header">
             <ul>
               <li>
-                <a href="#inicio">Início</a>
+                <a
+                  style={ scroll > 126 ? { color: "black"} : {} }
+                  href="#inicio"
+                >
+                  Início
+                </a>
               </li>
               <li>
-                <a href="#cardapio">Funcionalidades</a>
+                <a style={ scroll > 126 ? { color: "black"} : {} } href="#funcionalidades">Funcionalidades</a>
               </li>
               <li>
-                <a href="#suporte">Depoimentos</a>
+                <a style={ scroll > 126 ? { color: "black"} : {} } href="#depoimentos">Depoimentos</a>
               </li>
               <li>
-                <a href="#planos">Planos</a>
+                <a style={ scroll > 126 ? { color: "black"} : {} } href="#planos">Planos</a>
               </li>
               <li>
-                <a href="#planos">Tutoriais</a>
+                <a style={ scroll > 126 ? { color: "black"} : {} } href="#tutoriais">Tutoriais</a>
               </li>
               <li>
-                <a href="#planos">Versão Gratuita</a>
+                <button onClick={handleClient} className="btn-client">
+                 Entrar
+                </button>
               </li>
-              <li>
-              <button onClick={handleClient} className="btn-client">
-              Área do Cliente
-              </button>
-            </li>
             </ul>
           </nav>
         </nav>
@@ -128,25 +129,21 @@ export function Header({ children }) {
         }`}
       >
         <ul className="nav-item-hamburger-header">
-        <li>
-                <a href="#inicio">Início</a>
-              </li>
-              <li>
-                <a href="#cardapio">Funcionalidades</a>
-              </li>
-              <li>
-                <a href="#suporte">Depoimentos</a>
-              </li>
-              <li>
-                <a href="#planos">Planos</a>
-              </li>
-              <li>
-                <a href="#planos">Tutoriais</a>
-              </li>
-              <li>
-                <a href="#planos">Versão Gratuita</a>
-              </li>
-
+          <li>
+            <a href="#inicio">Início</a>
+          </li>
+          <li>
+            <a href="#funcionalidades">Funcionalidades</a>
+          </li>
+          <li>
+            <a href="#depoimentos">Depoimentos</a>
+          </li>
+          <li>
+            <a href="#planos">Planos</a>
+          </li>
+          <li>
+            <a href="#tutoriais">Tutoriais</a>
+          </li>
           <ul className="grup-btns-nav-hamburger-header">
             <li>
               <Button
