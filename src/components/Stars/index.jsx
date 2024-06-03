@@ -85,8 +85,7 @@ export function Stars() {
   return (
     <section id="depoimentos" className="container-Stars">
       <div className="title-Stars">
-        CONHEÇA A OPINIÃO DE QUEM JÁ ESCOLHEU <br /> O BMS GESTÃO PARA O SEU
-        NEGÓCIO:
+      Veja o que os nossos clientes dizem sobre o BMS GESTÃO:
       </div>
       <div className="content-btns-card-Stars">
         <div className="btns-Stars">
