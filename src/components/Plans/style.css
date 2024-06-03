@@ -194,6 +194,7 @@
   }
   .container-Plans {
     padding: 2rem;
+    height: 80vh;
     gap: 1.5rem;
   }
   .card-Plans {

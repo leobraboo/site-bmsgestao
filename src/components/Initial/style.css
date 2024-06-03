@@ -84,13 +84,14 @@
 @media screen and (min-width: 600px) and (max-width: 1200px) {
   .container-initial {
     justify-content: space-between;
-    padding: 5rem 5rem;
+    padding: 5rem 0rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .description-initial {
     text-align: center;
+    padding: 5rem 5rem;
   }
 }
 
@@ -108,6 +109,7 @@
   .container-initial {
     flex-direction: row-reverse;
     padding-right: 1rem;
+    height: 70vh !important;
   }
 
   .description-initial {
@@ -122,12 +124,8 @@
   }
 
   .description-initial {
-    width: 80%;
+    width: 100%;
     text-align: center;
-  }
-
-  .title-initial{
-    font-size: 1.3rem !important;
   }
 
   .description-initial span {
