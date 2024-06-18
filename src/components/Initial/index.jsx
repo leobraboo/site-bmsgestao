@@ -25,7 +25,7 @@ export function Initial() {
           id="svg"
           viewBox="0 0 1440 240"
           xmlns="http://www.w3.org/2000/svg"
-          className="transition duration-300 ease-in-out delay-150"
+          className="transition duration-10 ease-in-out delay-10"
         >
           <path
             d="M 0,400 L 0,150 C 117.42857142857142,154.85714285714286 234.85714285714283,159.71428571428572 346,169 C 457.14285714285717,178.28571428571428 562.0000000000001,192 699,189 C 835.9999999999999,186 1005.1428571428571,166.28571428571428 1134,157 C 1262.857142857143,147.71428571428572 1351.4285714285716,148.85714285714286 1440,150 L 1440,400 L 0,400 Z"
@@ -33,7 +33,7 @@ export function Initial() {
             strokeWidth="0"
             fill="#001532"
             fillOpacity="1"
-            className="transition-all duration-300 ease-in-out delay-150 path-0"
+            className="transition-all duration-10 ease-in-out delay-10 path-0"
           ></path>
         </svg>
       </div>

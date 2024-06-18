@@ -43,15 +43,15 @@
 }
 
 .transition {
-  transition: all 300ms ease-in-out;
+  transition: all 5ms ease-in-out;
 }
 
 .transition-all {
-  transition: all 300ms ease-in-out;
+  transition: all 5ms ease-in-out;
 }
 
 .path-0 {
-  animation: pathAnim-0 8s linear infinite;
+  animation: pathAnim-0 1ms linear infinite;
 }
 
 @keyframes pathAnim-0 {
