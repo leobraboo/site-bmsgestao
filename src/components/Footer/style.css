@@ -30,20 +30,23 @@
 
 @media screen and (max-width: 768px) {
   .footer-img img {
-    width: 150px;
+    width: 100px;
     height: 30px;
   }
+  .footer-img {
+    align-items: center;
+  }
   .description-footer span {
-    font-size: 1rem;
+    font-size: 0.6rem;
   }
   .strong-footer{
-    font-size: 1rem;
+    font-size: 0.6rem;
   }
   .description-footer{
     text-align: center;
   }
   .container-footer {
-    padding: 1rem;
+    padding: 0.5rem;
     justify-content: center;
     align-items: center;
     gap: 0;

@@ -72,12 +72,10 @@
 
 @media screen and (max-width: 768px) {
   .container-initial {
-    justify-content: center;
-    height: 100vh !important;
-
+    height: 90vh !important;
   }
-  
-  .title-initial{
+
+  .title-initial {
     font-size: 1rem;
   }
 
@@ -104,17 +102,17 @@
 }
 @media screen and (max-width: 600px) {
   .container-initial {
-    justify-content: center;
-    height: 100vh !important;
-
+    justify-content: flex-end;
+    height: 80vh !important;
+    padding: 0rem;
   }
 
-  .content-img-initial img{
+  .content-img-initial img {
     width: 230px;
     height: 150px;
   }
 
-  .title-initial{
+  .title-initial {
     font-size: 1rem;
   }
 

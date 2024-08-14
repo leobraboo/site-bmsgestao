@@ -70,13 +70,11 @@
     font-size: 1rem;
     text-align: center;
   }
-
   .title-pre-footer {
     font-size: 1rem !important;
   }
-
   .logo-footer{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
   }
 }

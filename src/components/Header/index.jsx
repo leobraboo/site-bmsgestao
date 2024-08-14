@@ -145,14 +145,9 @@ export function Header({ children }) {
             <a href="#tutoriais">Tutoriais</a>
           </li>
           <ul className="grup-btns-nav-hamburger-header">
-            <li>
               <Button
-                backgroundColor="#ff7f00"
                 text="CADASTRE-SE"
-                height="3.5rem"
-                fontSize="1.6rem"
               />
-            </li>
           </ul>
         </ul>
       </nav>

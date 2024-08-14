@@ -211,6 +211,7 @@
     justify-content: space-evenly;
     gap: 1.5rem;
     height: 40vh;
+    background-color: rgba(130, 130, 130, 0.248);
   }
 
   .card-Plans img{
