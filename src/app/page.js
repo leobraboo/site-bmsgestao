@@ -2,9 +2,11 @@
 import { Header } from "@/components/Header"
 import { Initial } from "@/components/Initial"
 import { Description } from "@/components/Description"
-import { Stars } from "@/components/Stars"
+import { Excel } from "@/components/Excel"
+import { Sectors } from "@/components/Sectors"
+// import { Stars } from "@/components/Stars"
 import { Plans } from "@/components/Plans"
-import { Questions } from "@/components/Questions"
+import { Specialist } from "@/components/Specialist"
 import { Tutorials } from "@/components/Tutorials"
 import { PreFooter } from "@/components/PreFooter"
 import { Footer } from "@/components/Footer"
@@ -16,10 +18,12 @@ export default function Home() {
         <Initial />
       </Header>
       <Description />
-      <Stars />
+      <Excel />
+      <Sectors />
+      {/* <Stars /> */}
       <Plans />
-      <Questions />
       <Tutorials />
+      <Specialist />
       <PreFooter />
       <Footer />
     </>

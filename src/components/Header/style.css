@@ -7,7 +7,6 @@ header {
   display: flex;
   align-items: center;
   padding: 0.5rem 1rem 0.5rem 0;
-  /* box-shadow: -1px 3px 10px 0px rgba(161, 161, 161, 0.78); */
   position: absolute;
   display: flex;
   width: 100%;
@@ -37,14 +36,14 @@ header {
 }
 
 .nav-left-header{
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
 }
 
 .nav-left-header a{
   font-size: 1.4rem;
   text-decoration: none;
   cursor: pointer;
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   padding: 0.6rem 1.2rem;
   border-radius: 5px;
 }
@@ -185,7 +184,6 @@ border-bottom: 1px solid rgb(201, 201, 201);
 
 .grup-btns-nav-hamburger-header li:not(:first-child):not(:last-child):hover {
   background-color: #13293d;
-  color: white;
   transition: ease-in all 0.1s;
 }
 

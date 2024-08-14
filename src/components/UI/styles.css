@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   font-weight: 400;
-  font-size: 1.5rem!important;
+  font-size: 1.5rem !important;
   padding: 1.5rem 4rem;
   cursor: pointer;
   transition: ease-in all 0.2s;
@@ -12,18 +12,24 @@
 }
 
 .general-button:hover {
-  background-color: #ffbb00!important;
+  background-color: #0074aa !important;
 }
 
-@media screen and (max-width: 665px){
+@media screen and (max-width: 665px) {
   .general-button-text {
-    font-size: 1.5rem!important;
+    font-size: 1.5rem !important;
     text-align: center;
   }
 }
 
 @media screen and (max-width: 480px) {
   .general-button-text {
-    font-size: 1.1rem!important;
+    font-size: 1rem !important;
+  }
+
+  .general-button {
+    width: 70%;
+    padding: 0.5rem 0.5rem !important;
+    font-size: 1rem !important;
   }
 }

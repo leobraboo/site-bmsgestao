@@ -2,8 +2,9 @@ import "./styles.css";
 
 export function Button({
   text = "Botão",
-  backgroundColor = "#ffd630",
-  color = "#001532",
+  backgroundColor = "#006494",
+  color = "whitesmoke",
+  fontWeight = "bold",
   height = "5rem",
   fontSize = "1.7rem",
 }) {
@@ -17,7 +18,8 @@ export function Button({
         backgroundColor: backgroundColor,
         color: color,
         height: height,
-        borderRadius: "5px",
+        fontWeight: fontWeight,
+        borderRadius: "10px",
       }}
     >
       <p className="general-button-text" style={{fontSize: fontSize}}>{text}</p>

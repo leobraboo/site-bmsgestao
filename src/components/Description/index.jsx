@@ -1,65 +1,87 @@
 import Image from "next/image";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
+import { Button } from "../UI";
 import "./style.css";
 
 export function Description() {
-  const handleMaps = () => {
-    window.open("https://bmsgestao.bmsltda.com.br/");
-  };
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const descriptions = [
+    {
+      title: "Um sistema descomplicado e completo para o seu negócio!",
+      imageSrc: "/vendas.png",
+      imageAlt: "description image",
+      pretext: "Gestão de Vendas",
+      text: "Controle total de Frente de Caixa, Orçamentos, Vendas e Ordens de Serviço.",
+      backgroundImage: "url('/bg-gray-1.png')",
+      backgroundPositionX: 500,
+    },
+    {
+      title: "Um sistema descomplicado e completo para o seu negócio!",
+      imageSrc: "/financeiro.png",
+      imageAlt: "description image",
+      pretext: "Gestão Financeira",
+      text: "Monitore a saúde financeira do seu negócio com precisão.",
+      backgroundImage: "url('/bg-gray-2.png')",
+      backgroundPositionX: 0,
+
+    },
+    {
+      title: "Um sistema descomplicado e completo para o seu negócio!",
+      imageSrc: "/emissaofiscal.png",
+      imageAlt: "description image",
+      pretext: "Emissões Fiscais",
+      text: "Regularize suas operaçõesfiscais de maneira rápida e fácil.",
+      backgroundImage: "url('/bg-gray-3.png')",
+      backgroundPositionX: 300,
+    },
+  ];
+
   useEffect(() => {
-    const contentImgMaps = document.querySelector(".content-img-description");
-    const descriptionMaps = document.querySelector(".description-description");
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % descriptions.length);
+    }, 2000);
 
-    const revealOnScroll = () => {
-      const contentImgMapsTop = contentImgMaps.getBoundingClientRect().top;
-      const descriptionMapsTop = descriptionMaps.getBoundingClientRect().top;
-      const windowHeight = window.innerHeight;
+    return () => clearInterval(interval);
+  }, [descriptions.length]);
 
-      if (contentImgMapsTop < windowHeight - 50) {
-        contentImgMaps.classList.add("reveal-left");
-      }
-
-      if (descriptionMapsTop < windowHeight - 50) {
-        descriptionMaps.classList.add("reveal-right");
-      }
-    };
-
-    window.addEventListener("scroll", revealOnScroll);
-    revealOnScroll();
-
-    return () => window.removeEventListener("scroll", revealOnScroll);
-  }, []);
   return (
-    <section id="funcionalidades" className="container-description">
-      <div className="content-img-description">
-        <Image
-          className="img-description"
-          src="/demo.png"
-          width={550}
-          height={400}
-          alt="description image"
-        />
-        <span>
-          Um sistema WEB. Acesse de onde estiver. <br />
-          Compatível com TABLET.
-        </span>
+    <section id="funcionalidades" className="container-description" style={{ backgroundImage: descriptions[currentIndex].backgroundImage, backgroundPositionX: descriptions[currentIndex].backgroundPositionX  }}>
+      <div className="carousel">
+        {descriptions.map((desc, index) => (
+          <div
+            key={index}
+            className={`description-description ${
+              index === currentIndex ? "active" : ""
+            }`}
+            style={{ display: index === currentIndex ? "flex" : "none" }}
+          >
+            <h1 className="title-description">{desc.title}</h1>
+            <div className="content-img-description">
+              <Image
+                className="img-description"
+                src={desc.imageSrc}
+                width={450}
+                height={200}
+                alt={desc.imageAlt}
+              />
+            </div>
+            <span className="pre-footer-description">{desc.pretext}</span>
+            <span className="description-text">{desc.text}</span>
+            <div className="free-btn-description">
+              <Button text="Teste GRATUITAMENTE por 30 dias" />
+            </div>
+          </div>
+        ))}
       </div>
-
-      <div className="description-description">
-        <h2 className="subtitle-description">Gestão Completa de Vendas</h2>
-        <p>
-          Controle total de Frente de Caixa, Orçamentos, Vendas <br /> e Ordens
-          de Serviço.
-        </p>
-        <h2 className="subtitle-description">Gestão Financeira Eficiente</h2>
-        <p>Monitore a saúde financeira do seu negócio com precisão.</p>
-        <h2 className="subtitle-description">Emissões Fiscais Simplificadas</h2>
-        <p>Regularize suas operações fiscais de maneira rápida e fácil.</p>
-        <div className="free-btn-description">
-          <button onClick={handleMaps} className="btn-free-description">
-            Experimente Gratuitamente por 15 dias
-          </button>
-        </div>
+      <div className="carousel-indicators">
+        {descriptions.map((_, index) => (
+          <button
+            key={index}
+            className={`indicator ${index === currentIndex ? "active" : ""}`}
+            onClick={() => setCurrentIndex(index)}
+          />
+        ))}
       </div>
     </section>
   );
