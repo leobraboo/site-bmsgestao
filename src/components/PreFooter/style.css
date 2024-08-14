@@ -67,11 +67,16 @@
 }
   .container-pre-footer span {
     width: 100%;
-    font-size: 1.4rem;
+    font-size: 1rem;
     text-align: center;
   }
 
   .title-pre-footer {
-    font-size: 2rem !important;
+    font-size: 1rem !important;
+  }
+
+  .logo-footer{
+    width: 30px;
+    height: 30px;
   }
 }

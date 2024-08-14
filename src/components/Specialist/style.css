@@ -40,31 +40,38 @@
 @media screen and (max-width: 768px) {
   .container-specialist {
     width: 100%;
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     padding: 1rem;
   }
 
   .content-img-specialist {
     width: 100%;
+    justify-content: center;
+  }
+
+  .content-img-specialist img{
+    width: 250px;
+    height: 250px;
   }
 
   .description-specialist{
     width: 100%;
-    gap: 2rem;
+    gap: 1rem;
     padding: 1rem;
   }
 
   .title-specialist{
     width: 100%;
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 0;
     text-align: center;
   }
 
   .text-weight-specialist{
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: center;
   }
 

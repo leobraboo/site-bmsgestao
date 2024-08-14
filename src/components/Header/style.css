@@ -304,6 +304,14 @@ border-bottom: 1px solid rgb(201, 201, 201);
   .nav-hamburger-header ul li {
     font-size: 1.3rem !important;
   }
+  .menu-mobile-header {
+    width: 35px;
+    height: 35px;
+
+    top: 1.2rem;
+    right: 1.2rem;
+
+  }
 }
 
 @media screen and (max-width: 767px) {

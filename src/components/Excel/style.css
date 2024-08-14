@@ -71,11 +71,23 @@
 @media screen and (max-width: 768px) {
   .container-excel {
     justify-content: center;
+    height: 70vh !important;
+    padding: 1rem 0rem;
   }
 
   .description-excel {
-    width: 400px;
+    width: 300px;
     text-align: center;
+  }
+
+  .title-excel {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .content-img-excel img{
+    width: 280px;
+    height: 180px;
   }
 
   .description-excel span {
