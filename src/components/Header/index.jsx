@@ -64,27 +64,47 @@ export function Header({ children }) {
             <ul>
               <li>
                 <a
-                  style={ scroll > 126 ? { color: "black"} : {} }
+                  style={scroll > 126 ? { color: "black" } : {}}
                   href="#inicio"
                 >
                   Início
                 </a>
               </li>
               <li>
-                <a style={ scroll > 126 ? { color: "black"} : {} } href="#funcionalidades">Funcionalidades</a>
+                <a
+                  style={scroll > 126 ? { color: "black" } : {}}
+                  href="#funcionalidades"
+                >
+                  Funcionalidades
+                </a>
               </li>
               <li>
-                <a style={ scroll > 126 ? { color: "black"} : {} } href="#depoimentos">Depoimentos</a>
+                <a
+                  style={scroll > 126 ? { color: "black" } : {}}
+                  href="#depoimentos"
+                >
+                  Depoimentos
+                </a>
               </li>
               <li>
-                <a style={ scroll > 126 ? { color: "black"} : {} } href="#planos">Planos</a>
+                <a
+                  style={scroll > 126 ? { color: "black" } : {}}
+                  href="#planos"
+                >
+                  Planos
+                </a>
               </li>
               <li>
-                <a style={ scroll > 126 ? { color: "black"} : {} } href="#tutoriais">Tutoriais</a>
+                <a
+                  style={scroll > 126 ? { color: "black" } : {}}
+                  href="#tutoriais"
+                >
+                  Tutoriais
+                </a>
               </li>
               <li>
                 <button onClick={handleClient} className="btn-client">
-                 Entrar
+                  Entrar
                 </button>
               </li>
             </ul>
@@ -97,15 +117,26 @@ export function Header({ children }) {
           scroll > 126
             ? {
                 position: "fixed",
-                top: "20px",
                 zIndex: 9999,
-                padding: 0,
                 backgroundColor: "rgb(255 255 255 / 40%)",
                 transition: "ease-in all 0.1s",
               }
             : {}
         }
       >
+        <div className="content-header">
+          <Image
+            className="logo-header"
+            src="/logo.png"
+            width={90}
+            height={40}
+            alt="Logo Company"
+          />
+        </div>
+        <div className="contact-header">
+          <span>Fale Conosco</span>
+          <span className="text-contact-header">Whastapp</span>
+        </div>
         <label className="hamburger" htmlFor="input-header">
           <input
             type="checkbox"
@@ -145,9 +176,7 @@ export function Header({ children }) {
             <a href="#tutoriais">Tutoriais</a>
           </li>
           <ul className="grup-btns-nav-hamburger-header">
-              <Button
-                text="CADASTRE-SE"
-              />
+            <Button text="CADASTRE-SE" />
           </ul>
         </ul>
       </nav>

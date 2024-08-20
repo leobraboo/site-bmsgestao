@@ -13,8 +13,6 @@ export function Description() {
       imageAlt: "description image",
       pretext: "Gestão de Vendas",
       text: "Controle total de Frente de Caixa, Orçamentos, Vendas e Ordens de Serviço.",
-      backgroundImage: "url('/bg-gray-1.png')",
-      backgroundPositionX: 500,
     },
     {
       title: "Um sistema descomplicado e completo para o seu negócio!",
@@ -22,8 +20,6 @@ export function Description() {
       imageAlt: "description image",
       pretext: "Gestão Financeira",
       text: "Monitore a saúde financeira do seu negócio com precisão.",
-      backgroundImage: "url('/bg-gray-2.png')",
-      backgroundPositionX: 0,
 
     },
     {
@@ -32,8 +28,6 @@ export function Description() {
       imageAlt: "description image",
       pretext: "Emissões Fiscais",
       text: "Regularize suas operaçõesfiscais de maneira rápida e fácil.",
-      backgroundImage: "url('/bg-gray-3.png')",
-      backgroundPositionX: 300,
     },
   ];
 
@@ -46,7 +40,7 @@ export function Description() {
   }, [descriptions.length]);
 
   return (
-    <section id="funcionalidades" className="container-description" style={{ backgroundImage: descriptions[currentIndex].backgroundImage, backgroundPositionX: descriptions[currentIndex].backgroundPositionX  }}>
+    <section id="funcionalidades" className="container-description">
       <div className="carousel">
         {descriptions.map((desc, index) => (
           <div
@@ -67,9 +61,9 @@ export function Description() {
               />
             </div>
             <span className="pre-footer-description">{desc.pretext}</span>
-            <span className="description-text">{desc.text}</span>
+            <span className="description-text-description">{desc.text}</span>
             <div className="free-btn-description">
-              <Button text="Teste GRATUITAMENTE por 30 dias" />
+              <Button text="EXPERIMENTE AGORA GRATUITAMENTE" />
             </div>
           </div>
         ))}

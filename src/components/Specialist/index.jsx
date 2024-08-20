@@ -8,18 +8,23 @@ export function Specialist() {
       <div className="content-img-specialist">
         <Image
           className="img-specialist"
-          src="/atendente.png"
+          src="/newatendente.png"
           width={400}
-          height={400}
+          height={200}
           alt="specialist image"
         />
       </div>
       <div className="description-specialist">
         <span className="title-specialist">
-          Quer saber mais, ou ficou com alguma duvida?
+          Tem dúvidas de como a
+          <strong className="title-specialist-strong"> BMS </strong> pode  
+           <strong className="title-specialist-strong">
+             ajudar o seu negócio?
+          </strong>
         </span>
         <span className="text-weight-specialist">
-        Nosso time está preparado para ajudar a melhorar a gestão da sua empresa!
+          Nosso time está preparado para ajudar a melhorar a gestão da sua
+          empresa!
         </span>
         <div className="btn-specialist">
           <Button text="Falar com Especialista" />

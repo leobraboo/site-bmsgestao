@@ -24,13 +24,10 @@
 
 @media screen and (max-width: 480px) {
   .general-button-text {
-    font-size: 1rem !important;
+    font-size: 1.2rem !important;
   }
 
   .general-button {
-    width: 90%;
     padding: 0.5rem 0.5rem !important;
-    font-size: 1rem !important;
-    height: 3rem !important;
   }
 }

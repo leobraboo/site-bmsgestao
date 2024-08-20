@@ -172,12 +172,12 @@ export function Sectors() {
             </div>
           </div>
         </div>
-        <span className="description-text">
+        <span className="description-text-sectors">
           Já ajudamos centenas de pequenos negócios a profissionalizarem a sua
           gestão! <br /> Venha ver como podemos te ajudar!
         </span>
         <div className="free-btn-sectors">
-          <Button text="Experimente Gratuitamente por 15 Dias" />
+          <Button text="CONHEÇA MELHOR" />
         </div>
       </div>
     </section>

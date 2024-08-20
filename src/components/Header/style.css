@@ -61,12 +61,11 @@ header {
   width: 50px;
   height: 50px;
   background-color: #02a73e;
-  color: whitesmoke;
+  color: rgb(226, 226, 226);
   bottom: 2rem;
   right: 2rem;
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: -1px -1px 16px 0px rgb(144, 144, 144);
   z-index: 9999;
 }
 
@@ -98,18 +97,26 @@ header {
 .menu-mobile-header {
   position: fixed;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  width: 45px;
+  width: 100%;
   height: 45px;
+  padding: 0.5rem 1rem 0.5rem 0;
   background-color: #ffffff;
   color: rgb(30, 30, 30);
-  top: 2rem;
-  right: 2rem;
-  border-radius: 50%;
   cursor: pointer;
-  box-shadow: -1px -1px 16px 0px rgb(144, 144, 144);
+  box-shadow: -1px -1px 10px 0px rgb(144, 144, 144);
   z-index: 9999;
+}
+
+.contact-header{
+  display: flex;
+  flex-direction: column;
+}
+
+.text-contact-header{
+  color: #254e75;
+  font-weight: 400;
 }
 
 .nav-hamburger-header {
@@ -295,12 +302,6 @@ header {
   }
   .nav-item-hamburger-header li a {
     font-size: 1rem !important;
-  }
-  .menu-mobile-header {
-    width: 35px;
-    height: 35px;
-    top: 1.2rem;
-    right: 1.2rem;
   }
   .nav-hamburger-header-is-open {
     top: 3rem;

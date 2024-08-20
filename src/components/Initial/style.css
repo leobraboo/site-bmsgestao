@@ -3,9 +3,6 @@
   flex-direction: column;
   width: 100%;
   height: 110vh;
-  background-image: url(../../../public/bgRocketLaunch.png);
-  background-repeat: no-repeat;
-  background-position-x: right;
   padding: 5.5rem 0;
   justify-content: center;
 }
@@ -15,18 +12,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(../../../public/bg-gray.png);
-  background-repeat: no-repeat;
-  background-size: contain;
   gap: 1rem;
-  width: 760px;
   margin: 0 auto;
-}
-
-.description-initial span {
-  font-size: 1.3rem;
-  display: flex;
-  text-align: center;
 }
 
 .pre-footer-initial {
@@ -36,75 +23,64 @@
 }
 
 .title-initial {
-  font-size: 1.9rem;
+  font-size: 2.8rem;
   font-weight: bold;
+  text-align: center;
+  letter-spacing: -3px;
+  line-height: 34px;
+  color: #666666;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1200px) {
-  .container-initial {
-    justify-content: space-between;
-    padding: 5rem 0rem;
-  }
+.title-initial-strong {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 34px;
+  color: #006494;
 }
 
 @media screen and (min-width: 1200px) {
-  .description-initial {
-    text-align: center;
-    padding: 5rem 1rem;
-  }
 }
 
 @media screen and (max-width: 1200px) {
-  .description-initial span {
-    text-align: start;
-  }
-
   .free-btn-initial {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 998px) {
-  .container-initial {
-    height: 70vh !important;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .container-initial {
-    height: 90vh !important;
-  }
-
-  .title-initial {
-    font-size: 1rem;
-  }
-
-  .description-initial {
-    width: 80%;
-    text-align: center;
-    gap: 0px;
-  }
-
-  .description-initial span {
-    text-align: center;
-    font-size: 1rem;
+    height: 100vh !important;
+    width: 95%;
+    margin: 0 auto;
   }
 
   .pre-footer-initial {
     text-align: center;
   }
 
+  .description-initial span {
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 20px;
+    color: #666666;
+    display: flex;
+    text-align: center;
+  }
+
   .free-btn-initial {
     padding-top: 20px;
     display: flex;
+    width: 80%;
     justify-content: center;
   }
 }
 @media screen and (max-width: 600px) {
   .container-initial {
-    justify-content: flex-end;
-    height: 80vh !important;
-    padding: 0rem;
+    justify-content: center;
+    padding: 4rem 0 0 0;
   }
 
   .content-img-initial img {
@@ -112,28 +88,7 @@
     height: 150px;
   }
 
-  .title-initial {
-    font-size: 1rem;
-  }
-
   .description-initial {
-    width: 80%;
-    text-align: center;
-    gap: 0px;
-  }
-
-  .description-initial span {
-    text-align: center;
-    font-size: 1rem;
-  }
-
-  .pre-footer-initial {
-    text-align: center;
-  }
-
-  .free-btn-initial {
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
+    gap: 0.5rem;
   }
 }

@@ -1,65 +1,120 @@
-import Image from "next/image";
 import "./style.css";
+import React, { useState } from "react";
 import { Button } from "../UI";
 
 export function Plans() {
+  const [selectedPlan, setSelectedPlan] = useState("value-1");
+  const [currentIndices, setCurrentIndices] = useState({
+    "value-1": 0,
+    "value-2": 0,
+    "value-3": 0,
+  });
+
+  const handlePlanChange = (event) => {
+    setSelectedPlan(event.target.value);
+  };
+
+  const handleNext = () => {
+    setCurrentIndices((prevIndices) => ({
+      ...prevIndices,
+      [selectedPlan]: prevIndices[selectedPlan] === 2 ? 0 : prevIndices[selectedPlan] + 1,
+    }));
+  };
+
+  const handlePrev = () => {
+    setCurrentIndices((prevIndices) => ({
+      ...prevIndices,
+      [selectedPlan]: prevIndices[selectedPlan] === 0 ? 2 : prevIndices[selectedPlan] - 1,
+    }));
+  };
+
+  const plans = [
+    { name: "Simples", price: "259,90", oldPrice: "359,90" },
+    { name: "Completo", price: "259,90", oldPrice: "359,90" },
+    { name: "Personalizado", price: "259,90", oldPrice: "359,90" },
+  ];
+
+  const renderCarousel = () => (
+    <div
+      className="carousel-Plans"
+      style={{ transform: `translateX(-${currentIndices[selectedPlan] * 100}%)` }}
+    >
+      {plans.map((plan, index) => (
+        <div key={index} className="content-Plans">
+          <div className="card-Plans">
+            <h2 className="testimony-Plans">{plan.name}</h2>
+            <p>Plano exclusivo para microempreendedor individual (MEI)</p>
+            <p>
+              <s className="old-plans">
+                R$
+                <strong className="old-plans">{plan.oldPrice}</strong>
+              </s>
+            </p>
+            <p>
+              R$
+              <strong className="strong-plans">{plan.price}</strong>
+              /mês
+            </p>
+            <Button text="CONHEÇA MELHOR" />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+
   return (
     <section id="planos" className="container-Plans">
       <div className="title-Plans">
-        Temos o plano SOB MEDIDA para a sua empresa e para o seu bolso!
+        Temos o <strong className="title-Plans-strong">PLANO SOB MEDIDA</strong>
+        para a sua <strong className="title-Plans-strong">EMPRESA</strong> e
+        para o seu <strong className="title-Plans-strong">BOLSO!</strong>
       </div>
-      <div className="content-btns-card-Plans">
-        <div className="content-card-Plans">
-          <div className="content-Plans">
-            <div className="card-Plans">
-              <span className="testimony-Plans">Gestão Simples</span>
-              <Image
-                className="stars-header"
-                src="/59.png"
-                width={370}
-                height={140}
-                alt="Prices"
-              />
-              <span className="footertestimony-Plans">
-                *Valores para Plano Anual. <br />
-                *Não possui parte fiscal incluída
-              </span>
-            </div>
-            <div className="card-Plans">
-              <span className="testimony-Plans">Gestão Completo</span>
-              <Image
-                className="stars-header"
-                src="/89.png"
-                width={370}
-                height={140}
-                alt="Prices"
-              />
-              <span className="footertestimony-Plans">
-                *Valores para Plano Anual. <br />
-                *Emissão fiscal limitada (à consultar)
-              </span>
-            </div>
-            <div className="card-Plans">
-              <span className="testimony-Plans">Gestão Personalizado</span>
-              <Image
-                className="stars-header"
-                src="/consult.png"
-                width={370}
-                height={140}
-                alt="Prices"
-              />
-              <span className="footertestimony-Plans">
-                Um plano na medida do que o seu <br /> negócio precisa. Solicite
-                um orçamento.
-              </span>
-            </div>
-          </div>
+      <div>
+        <div className="radio-input">
+          <label>
+            <input
+              type="radio"
+              id="value-1"
+              name="value-radio"
+              value="value-1"
+              checked={selectedPlan === "value-1"}
+              onChange={handlePlanChange}
+            />
+            <span>Anual</span>
+          </label>
+          <label>
+            <input
+              type="radio"
+              id="value-2"
+              name="value-radio"
+              value="value-2"
+              checked={selectedPlan === "value-2"}
+              onChange={handlePlanChange}
+            />
+            <span>Trimestral</span>
+          </label>
+          <label>
+            <input
+              type="radio"
+              id="value-3"
+              name="value-radio"
+              value="value-3"
+              checked={selectedPlan === "value-3"}
+              onChange={handlePlanChange}
+            />
+            <span>Mensal</span>
+          </label>
+          <span className="selection"></span>
         </div>
       </div>
-      <div className="free-btn-Plans">
-        <Button
-          text="Solicite uma demonstração"
-        />
+      <div className="content-card-Plans">
+        <button className="arrow-left-Plans" onClick={handlePrev}>
+          {"<"}
+        </button>
+        {renderCarousel()}
+        <button className="arrow-right-Plans" onClick={handleNext}>
+          {">"}
+        </button>
       </div>
     </section>
   );
