@@ -23,7 +23,7 @@
 }
 
 .title-specialist {
-  font-size: 2rem;
+  font-size: 2.3rem;
   gap: 5px;
   font-weight: bold;
   text-align: center;
@@ -33,7 +33,7 @@
 }
 
 .title-specialist-strong {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: bold;
   text-align: center;
   letter-spacing: -1px;
@@ -42,12 +42,12 @@
 }
 
 .text-weight-specialist {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   line-height: 24px;
   color: #666666;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 @media screen and (max-width: 768px) {

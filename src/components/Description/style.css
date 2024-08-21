@@ -25,7 +25,7 @@
 }
 
 .pre-footer-description {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: bold;
   text-align: center;
   letter-spacing: -1px;
@@ -34,7 +34,7 @@
 }
 
 .description-text-description {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
   letter-spacing: -1px;
   line-height: 24px;
@@ -43,10 +43,10 @@
 }
 
 .title-description {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: bold;
   text-align: center;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   line-height: 24px;
   color: #666666;
 }

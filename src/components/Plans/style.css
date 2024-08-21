@@ -234,3 +234,22 @@
     right: 10px;
   }
 }
+
+@media screen and (max-width: 370px) {
+  .content-Plans {
+    width: calc(100vw - 21rem)
+  }
+
+  .card-Plans {
+    width: 100%;
+    height: auto;
+  }
+
+  .arrow-left-Plans {
+    left: 10px;
+  }
+
+  .arrow-right-Plans {
+    right: 10px;
+  }
+}

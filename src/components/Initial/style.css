@@ -71,9 +71,9 @@
   }
 
   .free-btn-initial {
-    padding-top: 20px;
+    padding-top: 10px;
     display: flex;
-    width: 80%;
+    width: 90%;
     justify-content: center;
   }
 }
