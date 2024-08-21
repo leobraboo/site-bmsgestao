@@ -17,7 +17,7 @@
   width: 50%;
   display: flex;
   padding: 3rem 2rem 0 0;
-  gap: 3rem;
+  gap: 2rem;
   flex-direction: column;
   justify-content: center;
 }
@@ -39,15 +39,15 @@
   letter-spacing: -1px;
   line-height: 34px;
   color: #006494;
+  padding-left: 10px;
 }
 
 .text-weight-specialist {
   font-size: 1.5rem;
   text-align: center;
   letter-spacing: 1px;
-  line-height: 24px;
+  line-height: 20px;
   color: #666666;
-  padding: 0 1rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -68,14 +68,21 @@
 
   .description-specialist{
     width: 100%;
-    gap: 1rem;
-    padding: 1rem;
+    padding: 0rem;
+    align-items: center;
   }
 
   .title-specialist{
     width: 100%;
     padding: 0;
+    gap: 1rem;
     text-align: center;
+  }
+
+  .btn-specialist{
+    width: 90%;
+    display: flex;
+    justify-content: center;
   }
 
 }

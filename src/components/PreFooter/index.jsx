@@ -19,12 +19,12 @@ export function PreFooter() {
   };
   return (
     <section className="container-pre-footer">
-      <span  className="title-pre-footer">Revolucione a maneira como você gerencia o seu negócio HOJE!</span>
-      <span>
+      <span  className="title-pre-footer"> <strong className="title-pre-footer-strong">REVOLUCIONE</strong> a maneira como você gerencia o seu negócio <strong className="title-pre-footer-strong">HOJE!</strong></span>
+      <span className="description-pre-footer">
         Confie em quem está há mais de 25 anos no mercado, promovendo soluções
         para micro e pequenas empresas através da tecnologia.
       </span>
-      <span> Nos acompanhe nas nossas redes sociais</span>
+      <span className="description-pre-footer"> Nos acompanhe nas nossas redes sociais</span>
       <div className="content-logo-footer">
         <div onClick={handleInstagram} className="logo-footer">
           <IoLogoInstagram style={{ width: "100%", height: "100%" }} />

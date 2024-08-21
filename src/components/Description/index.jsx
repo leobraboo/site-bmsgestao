@@ -20,7 +20,6 @@ export function Description() {
       imageAlt: "description image",
       pretext: "Gestão Financeira",
       text: "Monitore a saúde financeira do seu negócio com precisão.",
-
     },
     {
       title: "Um sistema descomplicado e completo para o seu negócio!",
@@ -62,9 +61,6 @@ export function Description() {
             </div>
             <span className="pre-footer-description">{desc.pretext}</span>
             <span className="description-text-description">{desc.text}</span>
-            <div className="free-btn-description">
-              <Button text="EXPERIMENTE AGORA GRATUITAMENTE" />
-            </div>
           </div>
         ))}
       </div>
@@ -76,6 +72,9 @@ export function Description() {
             onClick={() => setCurrentIndex(index)}
           />
         ))}
+      </div>
+      <div className="free-btn-description">
+        <Button text="EXPERIMENTE AGORA GRATUITAMENTE" />
       </div>
     </section>
   );
