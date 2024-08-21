@@ -65,7 +65,7 @@ export function Plans() {
   return (
     <section id="planos" className="container-Plans">
       <div className="title-Plans">
-        Temos o <strong className="title-Plans-strong">PLANO SOB MEDIDA</strong>
+        Temos o <strong className="title-Plans-strong"> PLANO SOB MEDIDA </strong>
         para a sua <strong className="title-Plans-strong">EMPRESA</strong> e
         para o seu <strong className="title-Plans-strong">BOLSO!</strong>
       </div>

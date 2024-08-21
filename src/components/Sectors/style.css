@@ -87,6 +87,7 @@
   letter-spacing: -1px;
   line-height: 24px;
   color: #666666;
+  padding-top: 3rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -118,7 +119,7 @@
   .content-img-sectors {
     display: flex;
     width: max-content;
-    animation: scroll 10s linear infinite;
+    animation: scroll 20s linear infinite;
   }
 
   .free-btn-sectors {
