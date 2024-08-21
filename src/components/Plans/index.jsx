@@ -124,8 +124,8 @@ export function Plans() {
       <div className="card-contador">
         <h3>Você é contador ou presta serviço de BPO Financeiro?</h3>
         <p>
-          No Programa de Parceria da Conta Azul, tenha acesso a benefícios e
-          condições exclusivas ao indicar ou adquirir o ERP Conta Azul Pro para
+          No Programa de Parceria da BMS, tenha acesso a benefícios e
+          condições exclusivas ao indicar ou adquirir o ERP BMS Gestão para
           seus clientes.
         </p>
         <Button
