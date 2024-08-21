@@ -17,14 +17,16 @@ export function Plans() {
   const handleNext = () => {
     setCurrentIndices((prevIndices) => ({
       ...prevIndices,
-      [selectedPlan]: prevIndices[selectedPlan] === 2 ? 0 : prevIndices[selectedPlan] + 1,
+      [selectedPlan]:
+        prevIndices[selectedPlan] === 2 ? 0 : prevIndices[selectedPlan] + 1,
     }));
   };
 
   const handlePrev = () => {
     setCurrentIndices((prevIndices) => ({
       ...prevIndices,
-      [selectedPlan]: prevIndices[selectedPlan] === 0 ? 2 : prevIndices[selectedPlan] - 1,
+      [selectedPlan]:
+        prevIndices[selectedPlan] === 0 ? 2 : prevIndices[selectedPlan] - 1,
     }));
   };
 
@@ -37,7 +39,9 @@ export function Plans() {
   const renderCarousel = () => (
     <div
       className="carousel-Plans"
-      style={{ transform: `translateX(-${currentIndices[selectedPlan] * 100}%)` }}
+      style={{
+        transform: `translateX(-${currentIndices[selectedPlan] * 100}%)`,
+      }}
     >
       {plans.map((plan, index) => (
         <div key={index} className="content-Plans">
@@ -65,7 +69,8 @@ export function Plans() {
   return (
     <section id="planos" className="container-Plans">
       <div className="title-Plans">
-        Temos o <strong className="title-Plans-strong"> PLANO SOB MEDIDA </strong>
+        Temos o{" "}
+        <strong className="title-Plans-strong"> PLANO SOB MEDIDA </strong>
         para a sua <strong className="title-Plans-strong">EMPRESA</strong> e
         para o seu <strong className="title-Plans-strong">BOLSO!</strong>
       </div>
@@ -115,6 +120,20 @@ export function Plans() {
         <button className="arrow-right-Plans" onClick={handleNext}>
           {">"}
         </button>
+      </div>
+      <div className="card-contador">
+        <h3>Você é contador ou presta serviço de BPO Financeiro?</h3>
+        <p>
+          No Programa de Parceria da Conta Azul, tenha acesso a benefícios e
+          condições exclusivas ao indicar ou adquirir o ERP Conta Azul Pro para
+          seus clientes.
+        </p>
+        <Button
+          text="SAIBA MAIS"
+          backgroundColor="whitesmoke"
+          color="#006494"
+          border="1px solid #006494"
+        />
       </div>
     </section>
   );

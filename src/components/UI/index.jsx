@@ -7,6 +7,7 @@ export function Button({
   fontWeight = "bold",
   height = "5rem",
   fontSize = "1.7rem",
+  border = "none",
 }) {
   const handleButtonClick = () => {
     window.open('https://bmsgestao.bmsltda.com.br');
@@ -19,6 +20,7 @@ export function Button({
         color: color,
         height: height,
         fontWeight: fontWeight,
+        border: border,
         borderRadius: "10px",
       }}
     >
