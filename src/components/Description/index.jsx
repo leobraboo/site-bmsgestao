@@ -8,21 +8,21 @@ export function Description() {
 
   const descriptions = [
     {
-      title: "Um sistema descomplicado e completo para o seu negócio!",
+      title: "A solução completa e intuitiva para otimizar a gestão do seu negócio!",
       imageSrc: "/section1.png",
       imageAlt: "description image",
       pretext: "Gestão de Vendas",
       text: "Controle total de Frente de Caixa, Orçamentos, Vendas e Ordens de Serviço.",
     },
     {
-      title: "Um sistema descomplicado e completo para o seu negócio!",
+      title: "A solução completa e intuitiva para otimizar a gestão do seu negócio!",
       imageSrc: "/section1.png",
       imageAlt: "description image",
       pretext: "Gestão Financeira",
       text: "Monitore a saúde financeira do seu negócio com precisão.",
     },
     {
-      title: "Um sistema descomplicado e completo para o seu negócio!",
+      title: "A solução completa e intuitiva para otimizar a gestão do seu negócio!",
       imageSrc: "/section1.png",
       imageAlt: "description image",
       pretext: "Emissões Fiscais",

@@ -46,9 +46,18 @@
   font-size: 2.3rem;
   font-weight: bold;
   text-align: center;
-  letter-spacing: 1px;
-  line-height: 24px;
-  color: #666666;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #006494;
+}
+
+.title-description-strong {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 34px;
+  color: #006494;
 }
 
 

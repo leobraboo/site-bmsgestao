@@ -17,7 +17,7 @@ export function Sectors() {
                 alt="Sistema de gestão para Lojas de celulares e equipamentos"
               />
               <span className="img-text">
-                Lojas de celulares e equipamentos
+                Lojas de celulares <br /> e equipamentos
               </span>
             </div>
             <div className="item-img">
@@ -28,7 +28,7 @@ export function Sectors() {
                 height={250}
                 alt="Sistema de gestão para Lojas de cosméticos"
               />
-              <span className="img-text">Lojas de cosméticos</span>
+              <span className="img-text">Lojas de <br /> cosméticos</span>
             </div>
             <div className="item-img">
               <Image
@@ -38,7 +38,7 @@ export function Sectors() {
                 height={250}
                 alt="Sistema de gestão para Lojas de Materiais de Construção"
               />
-              <span className="img-text">Lojas de Materiais de Construção</span>
+              <span className="img-text">Lojas de <br /> Materiais de <br /> Construção</span>
             </div>
             <div className="item-img">
               <Image
@@ -48,7 +48,7 @@ export function Sectors() {
                 height={250}
                 alt="Sistema de gestão para Lojas de Roupas e Calçados"
               />
-              <span className="img-text">Lojas de Roupas e Calçados</span>
+              <span className="img-text">Lojas de <br /> Roupas e <br /> Calçados</span>
             </div>
             <div className="item-img">
               <Image
@@ -58,7 +58,7 @@ export function Sectors() {
                 height={250}
                 alt="Sistema de gestão para Lojas de Varejo"
               />
-              <span className="img-text">Lojas de Varejo</span>
+              <span className="img-text">Lojas de <br /> Varejo</span>
             </div>
             <div className="item-img">
               <Image
@@ -68,7 +68,7 @@ export function Sectors() {
                 height={250}
                 alt="Sistema de gestão para Restaurantes e Bares"
               />
-              <span className="img-text">Restaurantes e Bares</span>
+              <span className="img-text">Restaurantes e <br /> Bares</span>
             </div>
             <div className="item-img">
               <Image
@@ -88,7 +88,7 @@ export function Sectors() {
                 height={250}
                 alt="Sistema de gestão para Farmácias e Drogarias"
               />
-              <span className="img-text">Farmácias e Drogarias</span>
+              <span className="img-text">Farmácias e <br /> Drogarias</span>
             </div>
             <div className="item-img">
               <Image
@@ -98,7 +98,7 @@ export function Sectors() {
                 height={250}
                 alt="Sistema de gestão para Prestadores de Serviços"
               />
-              <span className="img-text">Prestadores de Serviços</span>
+              <span className="img-text">Prestadores de <br /> Serviços</span>
             </div>
             <div className="item-img">
               <Image
@@ -108,7 +108,7 @@ export function Sectors() {
                 height={250}
                 alt="Sistema de gestão para Postos de Combustíveis"
               />
-              <span className="img-text">Postos de Combustíveis</span>
+              <span className="img-text">Postos de <br /> Combustíveis</span>
             </div>
             <div className="item-img">
               <Image
@@ -118,7 +118,7 @@ export function Sectors() {
                 height={250}
                 alt="Sistema de gestão para Serviços de Assinatura"
               />
-              <span className="img-text">Serviços de Assinatura</span>
+              <span className="img-text">Serviços de <br /> Assinatura</span>
             </div>
             <div className="item-img">
               <Image
@@ -128,7 +128,7 @@ export function Sectors() {
                 height={250}
                 alt="Sistema de gestão para Oficinas Mecânicas"
               />
-              <span className="img-text">Oficinas Mecânicas</span>
+              <span className="img-text">Oficinas <br /> Mecânicas</span>
             </div>
             <div className="item-img">
               <Image
@@ -158,7 +158,7 @@ export function Sectors() {
                 height={250}
                 alt="Sistema de gestão para Clínicas e Consultórios"
               />
-              <span className="img-text">Clínicas e Consultórios</span>
+              <span className="img-text">Clínicas e <br /> Consultórios</span>
             </div>
             <div className="item-img">
               <Image
@@ -168,7 +168,7 @@ export function Sectors() {
                 height={250}
                 alt="Sistema de gestão para Educação e Cursos"
               />
-              <span className="img-text">Educação e Cursos</span>
+              <span className="img-text">Educação e <br /> Cursos</span>
             </div>
           </div>
         </div>
