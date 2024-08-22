@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  background-color: #f9f9f9;
 }
 
 .carousel {
@@ -48,11 +49,11 @@
   text-align: center;
   letter-spacing: 0px;
   line-height: 30px;
-  color: #006494;
+  color: #666;
 }
 
 .title-description-strong {
-  font-size: 2.8rem;
+  font-size: 2.3rem;
   font-weight: bold;
   text-align: center;
   letter-spacing: -1px;

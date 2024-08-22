@@ -49,7 +49,7 @@ export function Description() {
             }`}
             style={{ display: index === currentIndex ? "flex" : "none" }}
           >
-            <h1 className="title-description">{desc.title}</h1>
+            <h1 className="title-description">A solução <strong className="title-description-strong">COMPLETA</strong>  e intuitiva para otimizar a <strong className="title-description-strong">GESTÃO</strong>  do seu negócio!</h1>
             <div className="content-img-description">
               <Image
                 className="img-description"
