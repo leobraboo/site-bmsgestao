@@ -80,12 +80,12 @@
 @media screen and (max-width: 600px) {
   .container-initial {
     justify-content: center;
-    padding: 4rem 0 0 0;
+    padding: 1rem 0 0 0;
   }
 
   .content-img-initial img {
-    width: 230px;
-    height: 150px;
+    width: 250px;
+    height: 190px;
   }
 
   .description-initial {
