@@ -11,7 +11,7 @@ export function Excel() {
         <div className="content-img-excel">
           <Image
             className="img-excel"
-            src="/initialNot.png"
+            src="/excel.png"
             width={400}
             height={250}
             alt="description image"

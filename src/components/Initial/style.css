@@ -27,7 +27,7 @@
   font-weight: bold;
   text-align: center;
   letter-spacing: -3px;
-  line-height: 34px;
+  line-height: 38px;
   color: #666666;
 }
 
@@ -61,10 +61,10 @@
   }
 
   .description-initial span {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
     letter-spacing: -1px;
-    line-height: 20px;
+    line-height: 25px;
     color: #666666;
     display: flex;
     text-align: center;
