@@ -36,7 +36,8 @@
   text-align: center;
   letter-spacing: 1px;
   line-height: 20px;
-  color: whitesmoke;
+  font-weight: 500;
+  color: rgb(61, 61, 61);
   padding: 0 1rem;
 }
 
@@ -118,7 +119,7 @@
   text-align: center;
   letter-spacing: -1px;
   line-height: 24px;
-  color: whitesmoke;
+  color: rgb(61, 61, 61);
   padding: 1rem 0.5rem;
 
 }
