@@ -35,7 +35,7 @@ export function Header({ children }) {
       <div
         className="container-header"
         style={
-          scroll > 126
+          scroll > 56
             ? {
                 position: "fixed",
                 top: 0,

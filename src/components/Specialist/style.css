@@ -7,7 +7,7 @@
   margin: 0 auto;
   padding: 3rem;
   background-color: #48b865;
-  clip-path: polygon(0% 5%,100% 0%,100% 97%,50% 100%,0% 97%);
+  clip-path: polygon(100% 0%,100% 97%,50% 100%,0.00% 97.00%,0% 0%,50.00% 3.00%);
 }
 
 .content-img-specialist {

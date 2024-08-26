@@ -6,7 +6,7 @@
   padding: 5.5rem 0;
   justify-content: center;
   background-color: #f2a83e;
-  clip-path: polygon(0% 5%,100% 0%,100% 97%,50% 100%,0% 97%);
+  clip-path: polygon(100% 0%,100% 95%,50% 100%,0.00% 95.00%,0% 0%,50.00% 5.00%);
 }
 
 .description-sectors {
@@ -127,7 +127,7 @@
   .container-sectors {
     justify-content: center;
     height: auto;
-    padding: 2.5rem 0;
+    padding: 3.5rem 0;
   }
 
   .description-sectors {
