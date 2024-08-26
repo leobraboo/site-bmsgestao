@@ -13,21 +13,6 @@
   clip-path: polygon(0% 0%,50% 5%,100% 0%,100% 100%,0% 100%);
 }
 
-.container-pre-footer::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(/smoke.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  opacity: 0.2; /* Ajuste o valor de opacidade aqui */
-  z-index: -1;
-}
-
 .content-logo-footer {
   display: flex;
   gap: 2rem;
