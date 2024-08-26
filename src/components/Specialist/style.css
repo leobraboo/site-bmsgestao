@@ -7,6 +7,7 @@
   margin: 0 auto;
   padding: 3rem;
   background-color: #48b865;
+  clip-path: polygon(0% 0%,100% 0%,100% 97%,50% 100%,0% 97%);
 }
 
 .content-img-specialist {
@@ -91,5 +92,6 @@
 @media screen and (max-width: 380px) and (max-height: 670px) {
   .container-specialist {
     height: auto;
+    padding: 1rem 1rem 2rem 1rem;
   }
 }
