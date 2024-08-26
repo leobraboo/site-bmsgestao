@@ -11,7 +11,7 @@ export function Initial() {
         <div className="content-img-initial">
           <Image
             className="img-initial"
-            src="/initial.png"
+            src="/initialImg.png"
             width={400}
             height={250}
             alt="description image"
