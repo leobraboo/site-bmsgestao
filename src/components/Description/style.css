@@ -62,7 +62,6 @@
   color: #006494;
 }
 
-
 .description-description.active {
   display: flex;
 }
@@ -95,7 +94,7 @@
     justify-content: center;
     gap: 2rem;
     height: 90vh;
-}
+  }
 
   .content-img-description img {
     width: 100%;
@@ -120,5 +119,17 @@
     display: flex;
     justify-content: center;
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 380px) and (max-height: 670px) {
+  .container-description {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 414px) and (max-height: 890px) {
+  .container-description {
+    height: auto;
   }
 }

@@ -287,3 +287,41 @@
     right: 10px;
   }
 }
+
+@media screen and (max-width: 380px) and (max-height: 670px) {
+  .content-Plans {
+    width: calc(100vw - 21rem)
+  }
+
+  .card-Plans {
+    width: 100%;
+    height: auto;
+  }
+
+  .arrow-left-Plans {
+    left: 10px;
+  }
+
+  .arrow-right-Plans {
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 414px) and (max-height: 890px) {
+  .content-Plans {
+    width: calc(100vw - 21rem)
+  }
+
+  .card-Plans {
+    width: 100%;
+    height: auto;
+  }
+
+  .arrow-left-Plans {
+    left: 10px;
+  }
+
+  .arrow-right-Plans {
+    right: 10px;
+  }
+}
