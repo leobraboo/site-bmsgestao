@@ -135,3 +135,9 @@
     height: auto;
   }
 }
+
+@media screen and (max-width: 370px) and (max-height: 750px) {
+  .container-description {
+    height: 90vh;
+  }
+}
