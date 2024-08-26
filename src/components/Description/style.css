@@ -93,8 +93,9 @@
   .container-description {
     padding: 1rem 0;
     justify-content: center;
-    gap: 1rem;
-  }
+    gap: 2rem;
+    height: 90vh;
+}
 
   .content-img-description img {
     width: 100%;
