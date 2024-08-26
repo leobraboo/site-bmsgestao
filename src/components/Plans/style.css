@@ -311,6 +311,9 @@
   .content-Plans {
     width: calc(100vw - 21rem)
   }
+  .container-Plans {
+    padding: 3rem 1rem 1rem 1rem;
+}
 
   .card-Plans {
     width: 100%;
