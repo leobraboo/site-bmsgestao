@@ -7,7 +7,7 @@
   align-items: center;
   gap: 2rem;
   background-color: #403b74;
-  box-shadow: 0px 0px 11px 14px #403b74;
+  clip-path: polygon(100% 0%,100% 95%,50% 100%,0.00% 95.00%,0% 0%,50.00% 5.00%);
 }
 
 .carousel {
@@ -126,6 +126,7 @@
 @media screen and (max-width: 380px) and (max-height: 670px) {
   .container-description {
     height: auto;
+    padding: 3rem 0;
   }
 }
 
