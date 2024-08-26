@@ -6,6 +6,7 @@
   align-items: center;
   margin: 0 auto;
   padding: 3rem;
+  background-color: #48b865;
 }
 
 .content-img-specialist {
@@ -29,7 +30,7 @@
   text-align: center;
   letter-spacing: -1px;
   line-height: 24px;
-  color: #666666;
+  color: whitesmoke;
 }
 
 .title-specialist-strong {
@@ -47,7 +48,7 @@
   text-align: center;
   letter-spacing: 1px;
   line-height: 20px;
-  color: #666666;
+  color: whitesmoke;
 }
 
 @media screen and (max-width: 768px) {
