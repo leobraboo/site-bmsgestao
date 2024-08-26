@@ -70,9 +70,9 @@
   flex-direction: column;
   bottom: 0;
   width: 100%;
-  padding: 10px;
+  padding:  10px 10px 0px 10px;
   height: 30vh;
-  background: linear-gradient(to top, #006494, rgba(0, 22, 166, 0.05));
+  background: linear-gradient(to top, #006494, #006594b3, rgba(0, 22, 166, 0.05));
   color: #fff;
   font-size: 1.7rem;
   text-align: center;
@@ -146,12 +146,29 @@
   .content-img-sectors {
     display: flex;
     width: max-content;
-    animation: scroll 20s linear infinite;
+    animation: scroll 10s linear infinite;
   }
 
   .free-btn-sectors {
     display: flex;
     justify-content: center;
     width: 80%;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .content-img-sectors {
+    display: flex;
+    width: max-content;
+    animation: scroll 15s linear infinite;
   }
 }
