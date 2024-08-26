@@ -23,7 +23,7 @@ export function Initial() {
           previsibilidade para fazer o seu negócio crescer.
         </span>
         <div className="free-btn-initial">
-          <Button text="Experimente Gratuitamente" />
+          <Button backgroundColor="#48b865" text="Experimente Gratuitamente" />
         </div>
       </div>
     </section>

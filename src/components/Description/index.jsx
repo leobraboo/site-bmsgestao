@@ -74,7 +74,7 @@ export function Description() {
         ))}
       </div>
       <div className="free-btn-description">
-        <Button text="EXPERIMENTE AGORA GRATUITAMENTE" />
+        <Button backgroundColor="#f2a83e" color="#666" text="EXPERIMENTE AGORA GRATUITAMENTE" />
       </div>
     </section>
   );
