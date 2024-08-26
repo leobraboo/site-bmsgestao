@@ -12,163 +12,116 @@ export function Sectors() {
               <Image
                 className="img-sectors"
                 src="/smart.png"
-                width={200}
-                height={250}
+                width={250}
+                height={400}
                 alt="Sistema de gestão para Lojas de celulares e equipamentos"
               />
               <span className="img-text">
-                Lojas de celulares <br /> e equipamentos
+                <p className="img-title">Lojas de celulares e equipamentos</p>
+                <p className="img-subtext">
+                  Venda de produto e ordem de serviço para reparos e consertos.
+                </p>
               </span>
             </div>
             <div className="item-img">
               <Image
                 className="img-sectors"
                 src="/makeup.png"
-                width={200}
-                height={250}
+                width={250}
+                height={400}
                 alt="Sistema de gestão para Lojas de cosméticos"
               />
-              <span className="img-text">Lojas de <br /> cosméticos</span>
+              <span className="img-text">
+                <p className="img-title">Lojas de cosméticos</p>
+                <p className="img-subtext">
+                  Use o leitor de código de barras para agilizar as vendas.
+                  Faça uma gestão eficiente com o controle de estoque.
+                </p>
+              </span>
             </div>
             <div className="item-img">
               <Image
                 className="img-sectors"
                 src="/construction.png"
-                width={200}
-                height={250}
+                width={250}
+                height={400}
                 alt="Sistema de gestão para Lojas de Materiais de Construção"
               />
-              <span className="img-text">Lojas de <br /> Materiais de <br /> Construção</span>
+              <span className="img-text">
+                <p className="img-title">
+                  Lojas de Materiais <br /> de Construção
+                </p>
+                <p className="img-subtext">
+                  Use o leitor de código de barras para agilizar as vendas.
+                  Faça uma gestão eficiente com o controle de estoque.
+                </p>
+              </span>
             </div>
             <div className="item-img">
               <Image
                 className="img-sectors"
                 src="/closet.png"
-                width={200}
-                height={250}
+                width={250}
+                height={400}
                 alt="Sistema de gestão para Lojas de Roupas e Calçados"
               />
-              <span className="img-text">Lojas de <br /> Roupas e <br /> Calçados</span>
+              <span className="img-text">
+                <p className="img-title">Lojas de Roupas e Calçados</p>
+                <p className="img-subtext">
+                  Use o leitor de código de barras para agilizar as vendas.
+                  Faça uma gestão eficiente com o controle de estoque.
+                </p>
+              </span>
             </div>
-            <div className="item-img">
-              <Image
-                className="img-sectors"
-                src="/varejo.jpg"
-                width={200}
-                height={250}
-                alt="Sistema de gestão para Lojas de Varejo"
-              />
-              <span className="img-text">Lojas de <br /> Varejo</span>
-            </div>
-            <div className="item-img">
-              <Image
-                className="img-sectors"
-                src="/restaurante.jpg"
-                width={200}
-                height={250}
-                alt="Sistema de gestão para Restaurantes e Bares"
-              />
-              <span className="img-text">Restaurantes e <br /> Bares</span>
-            </div>
-            <div className="item-img">
-              <Image
-                className="img-sectors"
-                src="/minimarket.jpg"
-                width={200}
-                height={250}
-                alt="Sistema de gestão para Minimercados"
-              />
-              <span className="img-text">Minimercados</span>
-            </div>
-            <div className="item-img">
-              <Image
-                className="img-sectors"
-                src="/farm.jpg"
-                width={200}
-                height={250}
-                alt="Sistema de gestão para Farmácias e Drogarias"
-              />
-              <span className="img-text">Farmácias e <br /> Drogarias</span>
-            </div>
+
             <div className="item-img">
               <Image
                 className="img-sectors"
                 src="/prestadores.jpg"
-                width={200}
-                height={250}
+                width={250}
+                height={400}
                 alt="Sistema de gestão para Prestadores de Serviços"
               />
-              <span className="img-text">Prestadores de <br /> Serviços</span>
-            </div>
-            <div className="item-img">
-              <Image
-                className="img-sectors"
-                src="/posto.jpg"
-                width={200}
-                height={250}
-                alt="Sistema de gestão para Postos de Combustíveis"
-              />
-              <span className="img-text">Postos de <br /> Combustíveis</span>
-            </div>
-            <div className="item-img">
-              <Image
-                className="img-sectors"
-                src="/assinatura.jpg"
-                width={200}
-                height={250}
-                alt="Sistema de gestão para Serviços de Assinatura"
-              />
-              <span className="img-text">Serviços de <br /> Assinatura</span>
+              <span className="img-text">
+                <p className="img-title">Prestadores de Serviços</p>
+                <p className="img-subtext">
+                  Utilize a nossa ordem de serviço e os seus status para
+                  organizar o seu negócio.
+                </p>
+              </span>
             </div>
             <div className="item-img">
               <Image
                 className="img-sectors"
                 src="/oficina.jpg"
-                width={200}
-                height={250}
+                width={250}
+                height={400}
                 alt="Sistema de gestão para Oficinas Mecânicas"
               />
-              <span className="img-text">Oficinas <br /> Mecânicas</span>
-            </div>
-            <div className="item-img">
-              <Image
-                className="img-sectors"
-                src="/marcenaria.jpg"
-                width={200}
-                height={250}
-                alt="Sistema de gestão para Marcenarias"
-              />
-              <span className="img-text">Marcenarias</span>
+              <span className="img-text">
+                <p className="img-title">Oficinas Mecânicas</p>
+                <p className="img-subtext">
+                  Organize e acompanhe os serviços de reparo.Emita ordens de
+                  serviço detalhadas e controle o estoque de peças com
+                  facilidade.
+                </p>
+              </span>
             </div>
             <div className="item-img">
               <Image
                 className="img-sectors"
                 src="/marmoraria.jpg"
-                width={200}
-                height={250}
+                width={250}
+                height={400}
                 alt="Sistema de gestão para Marmorarias"
               />
-              <span className="img-text">Marmorarias</span>
-            </div>
-            <div className="item-img">
-              <Image
-                className="img-sectors"
-                src="/clinic.jpg"
-                width={200}
-                height={250}
-                alt="Sistema de gestão para Clínicas e Consultórios"
-              />
-              <span className="img-text">Clínicas e <br /> Consultórios</span>
-            </div>
-            <div className="item-img">
-              <Image
-                className="img-sectors"
-                src="/escola.jpg"
-                width={200}
-                height={250}
-                alt="Sistema de gestão para Educação e Cursos"
-              />
-              <span className="img-text">Educação e <br /> Cursos</span>
+              <span className="img-text">
+                <p className="img-title"> Marcenarias e Marmorarias</p>
+                <p className="img-subtext">
+                  Módulo de cálculo por M² facilitando e otimizando os custos e
+                  pedidos de venda e orçamentos.
+                </p>
+              </span>
             </div>
           </div>
         </div>
