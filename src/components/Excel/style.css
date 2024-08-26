@@ -113,4 +113,18 @@
     justify-content: center;
     width: 90%;
   }
+
+  .title-excel {
+    letter-spacing: 0px;
+    line-height: 26px;
+  }
+  
+  .title-excel-strong {
+    letter-spacing: -1px;
+    line-height: 27px;
+  }
+
+  .description-text-excel {
+    line-height: 24px;
+  }
 }

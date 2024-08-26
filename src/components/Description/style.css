@@ -91,7 +91,9 @@
 
 @media screen and (max-width: 768px) {
   .container-description {
+    padding: 1rem 0;
     justify-content: center;
+    gap: 1rem;
   }
 
   .content-img-description img {
@@ -106,7 +108,11 @@
   }
 
   .description-description {
-    gap: 1.5rem;
+    gap: 0.5rem;
+  }
+
+  .description-text-description {
+    height: 50px;
   }
 
   .free-btn-description {
