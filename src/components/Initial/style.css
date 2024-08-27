@@ -40,6 +40,16 @@
   color: #006494;
 }
 
+.footer-initial {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 20px;
+  padding-top: 20px;
+  color: #006494;
+}
+
 @media screen and (max-width: 768px) {
   .container-initial {
     height: 100vh !important;
@@ -68,6 +78,7 @@
     line-height: 20px;
     color: #666666;
     display: flex;
+    flex-direction: column;
     text-align: center;
   }
 

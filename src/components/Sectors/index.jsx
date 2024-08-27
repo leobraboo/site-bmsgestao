@@ -109,7 +109,7 @@ export function Sectors() {
             <div className="item-img">
               <Image
                 className="img-sectors"
-                src="/marmoraria.jpg"
+                src="/marcenaria.jpg"
                 width={250}
                 height={400}
                 alt="Sistema de gestão para Marmorarias"
@@ -223,7 +223,7 @@ export function Sectors() {
             <div className="item-img">
               <Image
                 className="img-sectors"
-                src="/marmoraria.jpg"
+                src="/marcenaria.jpg"
                 width={250}
                 height={400}
                 alt="Sistema de gestão para Marmorarias"
