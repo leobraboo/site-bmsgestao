@@ -8,25 +8,28 @@ export function Description() {
 
   const descriptions = [
     {
-      title: "A solução completa e intuitiva para otimizar a gestão do seu negócio!",
-      imageSrc: "/section1.png",
-      imageAlt: "description image",
+      imageSrc: "/section.png",
+      imageAlt: "carrinho de compras relacionado a emissão fiscal",
       pretext: "Gestão de Vendas",
-      text: "Controle total de Frente de Caixa, Orçamentos, Vendas e Ordens de Serviço.",
+      text: "O seu processo de venda muito mais rápido, eficiente e seguro! Emissão da NFC-e e NF-e integrado.",
     },
     {
-      title: "A solução completa e intuitiva para otimizar a gestão do seu negócio!",
       imageSrc: "/section1.png",
-      imageAlt: "description image",
+      imageAlt: "gráfico que mostra o quanto a empresa irá evoluir com o bms gestão",
       pretext: "Gestão Financeira",
-      text: "Monitore a saúde financeira do seu negócio com precisão.",
+      text: "Controle total das finanças da sua empresa em tempo real para decisões mais seguras e estratégicas!",
     },
     {
-      title: "A solução completa e intuitiva para otimizar a gestão do seu negócio!",
-      imageSrc: "/section1.png",
-      imageAlt: "description image",
-      pretext: "Emissões Fiscais",
-      text: "Regularize suas operaçõesfiscais de maneira rápida e fácil.",
+      imageSrc: "/section2.png",
+      imageAlt: "funcionários utilizando o bsm gestão para controlar o estoque",
+      pretext: "Gestão de Estoque",
+      text: "Gerencie seu estoque de forma eficiente e economize tempo com a importação automática de XML e atualizações automática dos produtos.",
+    },
+    {
+      imageSrc: "/section3.png",
+      imageAlt: "representa um funcionário utilizando o bms gestão para gerar suas ordens de serviço",
+      pretext: "Ordem de Serviço",
+      text: "Organize suas ordens de serviço e orçamentos com mais agilidade e profissionalismo.Com emissão de NFS-e.",
     },
   ];
 
@@ -59,8 +62,10 @@ export function Description() {
                 alt={desc.imageAlt}
               />
             </div>
+            <div className="content-description-texts">
             <span className="pre-footer-description">{desc.pretext}</span>
             <span className="description-text-description">{desc.text}</span>
+            </div>
           </div>
         ))}
       </div>
