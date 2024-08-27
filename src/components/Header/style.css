@@ -6,7 +6,6 @@ header {
 .container-header {
   display: flex;
   align-items: center;
-  padding: 0.5rem 1rem 0.5rem 0;
   position: absolute;
   display: flex;
   width: 100%;
@@ -22,6 +21,11 @@ header {
 
 .nav-right-header {
   display: flex;
+  width: 85%;
+  height: 60px;
+  padding-right: 1rem;
+  border-radius: 0px 0px 0px 50px;
+  background-color: #403b74;
 }
 
 .container-header ul {
@@ -36,14 +40,17 @@ header {
 }
 
 .nav-left-header {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav-left-header a {
   font-size: 1.4rem;
   text-decoration: none;
   cursor: pointer;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 0.6rem 1.2rem;
   border-radius: 5px;
 }
@@ -81,8 +88,8 @@ header {
   justify-content: center;
   font-weight: 700;
   cursor: pointer;
-  background: #13293d;
-  padding: 1rem 2rem;
+  background: #f2a83e;
+  padding: 1rem 3rem;
   color: white;
   font-size: 1.5rem;
   border-radius: 5px;
@@ -91,7 +98,7 @@ header {
 }
 
 .btn-client:hover {
-  background: #254e75;
+  background: #f89a18;
 }
 
 .menu-mobile-header {
@@ -259,7 +266,6 @@ header {
   }
   .nav-right-header {
     justify-content: center;
-    margin-right: 1rem;
   }
   .menu-mobile-header {
     right: 4rem;

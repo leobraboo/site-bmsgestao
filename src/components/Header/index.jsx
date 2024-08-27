@@ -42,7 +42,7 @@ export function Header({ children }) {
                 zIndex: 9999,
                 width: "100%",
                 padding: 0,
-                color: "black",
+                color: "whitesmoke",
                 backgroundColor: "#ffffffcc",
                 transition: "ease-in all 0.1s",
               }
@@ -64,7 +64,7 @@ export function Header({ children }) {
             <ul>
               <li>
                 <a
-                  style={scroll > 126 ? { color: "black" } : {}}
+                  style={scroll > 126 ? { color: "whitesmoke" } : {}}
                   href="#inicio"
                 >
                   Início
@@ -72,7 +72,7 @@ export function Header({ children }) {
               </li>
               <li>
                 <a
-                  style={scroll > 126 ? { color: "black" } : {}}
+                  style={scroll > 126 ? { color: "whitesmoke" } : {}}
                   href="#funcionalidades"
                 >
                   Funcionalidades
@@ -80,15 +80,7 @@ export function Header({ children }) {
               </li>
               <li>
                 <a
-                  style={scroll > 126 ? { color: "black" } : {}}
-                  href="#depoimentos"
-                >
-                  Depoimentos
-                </a>
-              </li>
-              <li>
-                <a
-                  style={scroll > 126 ? { color: "black" } : {}}
+                  style={scroll > 126 ? { color: "whitesmoke" } : {}}
                   href="#planos"
                 >
                   Planos
@@ -96,10 +88,10 @@ export function Header({ children }) {
               </li>
               <li>
                 <a
-                  style={scroll > 126 ? { color: "black" } : {}}
-                  href="#tutoriais"
+                  style={scroll > 126 ? { color: "whitesmoke" } : {}}
+                  href="#segmentos"
                 >
-                  Tutoriais
+                  segmentos
                 </a>
               </li>
               <li>
@@ -167,13 +159,10 @@ export function Header({ children }) {
             <a href="#funcionalidades">Funcionalidades</a>
           </li>
           <li>
-            <a href="#depoimentos">Depoimentos</a>
-          </li>
-          <li>
             <a href="#planos">Planos</a>
           </li>
           <li>
-            <a href="#tutoriais">Tutoriais</a>
+            <a href="#segmentos">segmentos</a>
           </li>
           <ul className="grup-btns-nav-hamburger-header">
             <Button text="CADASTRE-SE" />

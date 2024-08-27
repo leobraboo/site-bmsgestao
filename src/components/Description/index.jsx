@@ -15,7 +15,8 @@ export function Description() {
     },
     {
       imageSrc: "/section1.png",
-      imageAlt: "gráfico que mostra o quanto a empresa irá evoluir com o bms gestão",
+      imageAlt:
+        "gráfico que mostra o quanto a empresa irá evoluir com o bms gestão",
       pretext: "Gestão Financeira",
       text: "Controle total das finanças da sua empresa em tempo real para decisões mais seguras e estratégicas!",
     },
@@ -27,7 +28,8 @@ export function Description() {
     },
     {
       imageSrc: "/section3.png",
-      imageAlt: "representa um funcionário utilizando o bms gestão para gerar suas ordens de serviço",
+      imageAlt:
+        "representa um funcionário utilizando o bms gestão para gerar suas ordens de serviço",
       pretext: "Ordem de Serviço",
       text: "Organize suas ordens de serviço e orçamentos com mais agilidade e profissionalismo.Com emissão de NFS-e.",
     },
@@ -52,7 +54,13 @@ export function Description() {
             }`}
             style={{ display: index === currentIndex ? "flex" : "none" }}
           >
-            <h1 className="title-description">A solução <strong className="title-description-strong">COMPLETA</strong>  e intuitiva para otimizar a <strong className="title-description-strong">GESTÃO</strong>  do seu negócio!</h1>
+            <h1 className="title-description">
+              A solução{" "}
+              <strong className="title-description-strong">COMPLETA</strong> e
+              intuitiva para otimizar a{" "}
+              <strong className="title-description-strong">GESTÃO</strong> do
+              seu negócio!
+            </h1>
             <div className="content-img-description">
               <Image
                 className="img-description"
@@ -63,8 +71,34 @@ export function Description() {
               />
             </div>
             <div className="content-description-texts">
-            <span className="pre-footer-description">{desc.pretext}</span>
-            <span className="description-text-description">{desc.text}</span>
+              <span className="pre-footer-description">{desc.pretext}</span>
+              <span className="description-text-description">{desc.text}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className="carousel-desktop">
+        <h1 className="title-description">
+          A solução{" "}
+          <strong className="title-description-strong">COMPLETA</strong> e
+          intuitiva para otimizar a{" "}
+          <strong className="title-description-strong">GESTÃO</strong> do seu
+          negócio!
+        </h1>
+        {descriptions.map((desc, index) => (
+          <div key={index} className="description-description desktop-card">
+            <div className="content-img-description">
+              <Image
+                className="img-description"
+                src={desc.imageSrc}
+                width={300}
+                height={280}
+                alt={desc.imageAlt}
+              />
+            </div>
+            <div className="content-description-texts">
+              <span className="pre-footer-description">{desc.pretext}</span>
+              <span className="description-text-description">{desc.text}</span>
             </div>
           </div>
         ))}
@@ -79,7 +113,11 @@ export function Description() {
         ))}
       </div>
       <div className="free-btn-description">
-        <Button backgroundColor="#f2a83e" color="#666" text="EXPERIMENTE AGORA GRATUITAMENTE" />
+        <Button
+          backgroundColor="#f2a83e"
+          color="#666"
+          text="EXPERIMENTE AGORA GRATUITAMENTE"
+        />
       </div>
     </section>
   );

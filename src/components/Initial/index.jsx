@@ -31,6 +31,15 @@ export function Initial() {
           <Button backgroundColor="#48b865" text="Teste GRATUITAMENTE" />
         </div>
       </div>
+      <div className="content-img-initial-desktop">
+        <Image
+          className="img-initial-desktop"
+          src="/initialImg.png"
+          width={650}
+          height={500}
+          alt="description image"
+        />
+      </div>
     </section>
   );
 }

@@ -1,6 +1,7 @@
 import "./style.css";
 import React, { useState } from "react";
 import { Button } from "../UI";
+import Image from "next/image";
 
 export function Plans() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -79,6 +80,41 @@ export function Plans() {
       ))}
     </div>
   );
+  const renderPlans = () => (
+    <div className="carousel-Plans-desktop">
+      {plans.map((plan, index) => (
+        <div key={index} className="content-Plans-desktop">
+          <div className="card-Plans-desktop">
+            <h2 className="testimony-Plans">{plan.name}</h2>
+            <p>{plan.description}</p>
+            {plan.price !== "Á consultar" ? (
+              <>
+                <p>
+                  <s className="old-plans">
+                    R$
+                    <strong className="old-plans">{plan.oldPrice}</strong>
+                  </s>
+                </p>
+                <p>
+                  R$
+                  <strong className="strong-plans">{plan.price}</strong>
+                  /mês
+                </p>
+              </>
+            ) : (
+              <>
+                <s className="old-plans">
+                  <strong className="old-plans">{plan.oldPrice}</strong>
+                </s>
+                <p className="consult-price-Plans">{plan.price}</p>
+              </>
+            )}
+            <Button text="CONHEÇA MELHOR" />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
 
   return (
     <section id="planos" className="container-Plans">
@@ -96,6 +132,31 @@ export function Plans() {
         <button className="arrow-right-Plans" onClick={handleNext}>
           {">"}
         </button>
+      </div>
+      <div className="content-card-plans-desktop">{renderPlans()}</div>
+      <div className="content-contador">
+        <div className="content-img-contador-desktop">
+          <Image
+            className="img-initial-desktop"
+            src="/contador.png"
+            width={450}
+            height={350}
+            alt="description image"
+          />
+        </div>
+        <div className="card-contador-desktop">
+        <h3>Você é contador?</h3>
+        <p>
+          Temos um programa de parcerias exclusivas para contadores. Indique os
+          seus clientes, agilize os seus processos e receba comissões.
+        </p>
+        <Button
+          text="SAIBA MAIS"
+          backgroundColor="whitesmoke"
+          color="#006494"
+          border="1px solid #006494"
+        />
+      </div>
       </div>
       <div className="card-contador">
         <h3>Você é contador?</h3>

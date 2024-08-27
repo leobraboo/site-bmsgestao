@@ -25,6 +25,15 @@ export function Excel() {
           <Button text="Experimente Grátis" />
         </div>
       </div>
+      <div className="content-img-excel-desktop">
+          <Image
+            className="img-excel"
+            src="/excel.png"
+            width={600}
+            height={450}
+            alt="description image"
+          />
+        </div>
     </section>
   );
 }

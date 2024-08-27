@@ -14,6 +14,15 @@ export function Specialist() {
           alt="specialist image"
         />
       </div>
+      <div className="content-img-specialist-desktop">
+        <Image
+          className="img-specialist"
+          src="/suport.png"
+          width={600}
+          height={450}
+          alt="specialist image"
+        />
+      </div>
       <div className="description-specialist">
         <span className="title-specialist">
           Tem dúvidas de como a

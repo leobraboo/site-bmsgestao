@@ -23,6 +23,14 @@
   transition: transform 0.3s ease-in-out;
 }
 
+.carousel-Plans-desktop {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 -130px #006494, 0px 200px #006494;
+}
+
 .contentcard-Plans {
   display: flex;
   flex-direction: column;
@@ -55,6 +63,14 @@
   padding: 0 1rem;
 }
 
+.content-Plans-desktop {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
 .card-Plans {
   width: 100%;
   max-width: 100%;
@@ -69,7 +85,26 @@
   box-shadow: 0 5px 15px #00000014;
 }
 
+.card-Plans-desktop {
+  width: 100%;
+  display: flex;
+  color: #666;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 15px;
+  padding: 30px 20px;
+  height: 50vh;
+  box-shadow: 0 5px 15px #00000014;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 .card-Plans p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.card-Plans-desktop p {
   margin-bottom: 5px;
   font-size: 14px;
 }
@@ -88,7 +123,7 @@
   align-items: center;
 }
 
-.old-plans strong{
+.old-plans strong {
   color: #b7192b;
   font-size: 16px !important;
   display: flex;
@@ -202,7 +237,7 @@
   transition: all 300ms ease-in-out;
 }
 
-.card-contador{
+.card-contador {
   z-index: 10;
   background: #fff;
   border-radius: 15px;
@@ -217,7 +252,7 @@
   position: relative;
 }
 
-.card-contador h3{
+.card-contador h3 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
@@ -226,13 +261,68 @@
   color: #666666;
 }
 
-.card-contador p{
+.card-contador p {
   margin: 0;
   font-size: 15px;
   text-align: center;
   letter-spacing: 1px;
   line-height: 24px;
   color: #666666;
+}
+
+@media screen and (min-width: 768px) {
+  .content-card-Plans {
+    display: none;
+  }
+  .container-Plans{
+    padding: 3rem 0rem;
+  }
+  .content-contador{
+    display: flex;
+    padding: 2rem 6rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-contador{
+    display: none;
+  }
+  .content-img-contador-desktop{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .card-contador-desktop {
+    z-index: 10;
+    background: #fff;
+    border-radius: 15px;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 50%;
+    padding: 30px;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    box-shadow: 0 5px 15px #00000014;
+    position: relative;
+  }
+  
+  .card-contador-desktop h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #666666;
+  }
+  
+  .card-contador-desktop p {
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #666666;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -252,7 +342,11 @@
 
 @media screen and (max-width: 500px) {
   .content-Plans {
-    width: calc(100vw - 25rem)
+    width: calc(100vw - 25rem);
+  }
+
+  .content-card-plans-desktop {
+    display: none;
   }
 
   .card-Plans {
@@ -271,7 +365,11 @@
 
 @media screen and (max-width: 370px) {
   .content-Plans {
-    width: calc(100vw - 21rem)
+    width: calc(100vw - 21rem);
+  }
+
+  .content-card-plans-desktop {
+    display: none;
   }
 
   .card-Plans {
@@ -290,7 +388,11 @@
 
 @media screen and (max-width: 380px) and (max-height: 670px) {
   .content-Plans {
-    width: calc(100vw - 21rem)
+    width: calc(100vw - 21rem);
+  }
+
+  .content-card-plans-desktop {
+    display: none;
   }
 
   .card-Plans {
@@ -309,11 +411,14 @@
 
 @media screen and (max-width: 414px) and (max-height: 890px) {
   .content-Plans {
-    width: calc(100vw - 21rem)
+    width: calc(100vw - 21rem);
   }
   .container-Plans {
     padding: 3rem 1rem 0.5rem 1rem;
-}
+  }
+  .content-card-plans-desktop {
+    display: none;
+  }
 
   .card-Plans {
     width: 100%;
