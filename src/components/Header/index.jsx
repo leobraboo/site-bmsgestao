@@ -133,10 +133,10 @@ export function Header({ children }) {
             alt="Logo Company"
           />
         </div>
-        <div className="contact-header">
+        {/* <div className="contact-header">
           <span>Fale Conosco</span>
           <span className="text-contact-header">Whastapp</span>
-        </div>
+        </div> */}
         <label className="hamburger" htmlFor="input-header">
           <input
             type="checkbox"
