@@ -85,6 +85,12 @@ export function Plans() {
       {plans.map((plan, index) => (
         <div key={index} className="content-Plans-desktop">
           <div className="card-Plans-desktop">
+            {plan.name === "Completo" ? (
+              <div className="indicated-plan">Mais indicado</div>
+            ) : (
+              <></>
+            )}
+
             <h2 className="testimony-Plans">{plan.name}</h2>
             <p>{plan.description}</p>
             {plan.price !== "Á consultar" ? (
@@ -145,18 +151,18 @@ export function Plans() {
           />
         </div>
         <div className="card-contador-desktop">
-        <h3>Você é contador?</h3>
-        <p>
-          Temos um programa de parcerias exclusivas para contadores. Indique os
-          seus clientes, agilize os seus processos e receba comissões.
-        </p>
-        <Button
-          text="SAIBA MAIS"
-          backgroundColor="whitesmoke"
-          color="#006494"
-          border="1px solid #006494"
-        />
-      </div>
+          <h3>Você é contador?</h3>
+          <p>
+            Temos um programa de parcerias exclusivas para contadores. Indique
+            os seus clientes, agilize os seus processos e receba comissões.
+          </p>
+          <Button
+            text="SAIBA MAIS"
+            backgroundColor="#f2a83e"
+            color="whitesmoke"
+            border="1px solid #006494"
+          />
+        </div>
       </div>
       <div className="card-contador">
         <h3>Você é contador?</h3>

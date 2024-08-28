@@ -18,7 +18,7 @@ export function Excel() {
           />
         </div>
         <span className="description-text-excel">
-          Com o BMS Gestão, você faz a gestão completa do seu negócio! Suas
+          Com o BMS Gestão, você faz a gestão completa do seu negócio! <br /> Suas
           informações estarão seguras e você poderá acessá
         </span>
         <div className="free-btn-excel">

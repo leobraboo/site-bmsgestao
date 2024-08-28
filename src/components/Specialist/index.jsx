@@ -35,6 +35,9 @@ export function Specialist() {
           Nosso time está preparado para ajudar a melhorar a gestão da sua
           empresa!
         </span>
+        <span className="text-weight-specialist-desktop">
+        Aqui, você pode contar com um Suporte sem filas e ​humanizado! E isso, sem qualquer custo adicional.
+        </span>
         <div className="btn-specialist">
           <Button text="Falar com Especialista" />
         </div>

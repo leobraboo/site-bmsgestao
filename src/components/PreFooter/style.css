@@ -9,8 +9,8 @@
   flex-direction: column;
   position: relative;
   z-index: 1;
-  background-color: #006494;
-  clip-path: polygon(0% 0%,50% 5%,100% 0%,100% 100%,0% 100%);
+  background-color: #403b74;
+  clip-path: polygon(0% 0%, 50% 5%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .content-logo-footer {
@@ -34,7 +34,7 @@
   text-align: center;
   letter-spacing: -1px;
   line-height: 34px;
-  color:  #f2a83e;
+  color: #f2a83e;
 }
 
 .logo-footer {
@@ -50,6 +50,97 @@
   cursor: pointer;
 }
 
+@media screen and (min-width: 768px) {
+  .container-pre-footer {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: row;
+  }
+  .content-pre-footer {
+    width: 50%;
+    height: 90vh;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .pre-footer-desktop {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 4rem;
+    width: 50%;
+    height: 75vh;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 4px ridge white;
+  }
+  .years-pre-footer {
+    justify-content: start;
+    align-items: center;
+    border-radius: 40px;
+    width: 70%;
+    border: 3px solid white;
+    display: flex;
+    padding: 1rem;
+  }
+  .years-text-weight {
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: white;
+  }
+  .years-text-weak {
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: white;
+  }
+  .content-text-years {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+  }
+  .container-pre-footer span {
+    width: 100%;
+    text-align: center;
+  }
+  .title-pre-footer {
+    font-size: 4rem;
+    gap: 5px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: 45px;
+    color: whitesmoke;
+  }
+  .title-pre-footer-strong {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #f2a83e;
+  }
+  .description-pre-footer {
+    font-size: 1.8rem;
+    gap: 5px;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: whitesmoke;
+  }
+  .logo-footer {
+    width: 75px;
+    height: 75px;
+    color: #f2a83e;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container-pre-footer {
     flex-direction: column;
@@ -58,6 +149,9 @@
     width: 100%;
     padding: 1rem;
     gap: 10px;
+  }
+  .pre-footer-desktop {
+    display: none;
   }
   .container-pre-footer span {
     width: 100%;

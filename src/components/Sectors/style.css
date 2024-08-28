@@ -37,7 +37,7 @@
   letter-spacing: 1px;
   line-height: 20px;
   font-weight: 500;
-  color: rgb(61, 61, 61);
+  color: #fff;
   padding: 0 1rem;
 }
 
@@ -119,7 +119,7 @@
   text-align: center;
   letter-spacing: -1px;
   line-height: 24px;
-  color: rgb(61, 61, 61);
+  color: #fff;
   padding: 1rem 0.5rem;
 
 }
