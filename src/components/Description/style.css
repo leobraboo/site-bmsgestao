@@ -103,9 +103,37 @@
 @media screen and (min-width: 768px) {
   .container-description {
     height: auto;
+    padding-bottom: 6rem;
+  }
+  .gif-desktop-card{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 3rem;
+    padding: 3rem;
+  }
+  .content-gifs-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: whitesmoke;
+    border: 6px double #666666;
+    border-radius: 10px;
+  }
+  .description-gifs-cards{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .content-desktop-cards{
+    display: flex;
   }
   .carousel-desktop {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: space-around;
@@ -124,9 +152,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: whitesmoke;
     height: 180px;
     width: 300px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 6px double #666666;
+    border-radius: 10px;
+  }
+  .content-description-texts-gifs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 110px;
+    width: 100%;
     padding: 10px;
     border: 6px double #666666;
     border-radius: 10px;
@@ -162,6 +201,14 @@
     padding: 1rem 0;
     gap: 2rem;
     height: 110vh;
+  }
+
+  .gif-desktop-card{
+    display: none;
+  }
+
+  .content-gifs-description{
+    display: none;
   }
 
   .carousel-desktop {

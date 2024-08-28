@@ -133,7 +133,10 @@
   }
   .content-img-sectors {
     gap: 50px;
-}
+  }
+  .item-img {
+    width: 270px;
+  }
 }
 
 @media screen and (max-width: 768px) {

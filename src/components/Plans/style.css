@@ -364,6 +364,10 @@
     display: none;
   }
 
+  .card-contador-desktop{
+    display: none;
+  }
+
   .content-img-contador-desktop{
     display: none;
   }
@@ -394,6 +398,10 @@
     display: none;
   }
 
+  .card-contador-desktop{
+    display: none;
+  }
+
   .card-Plans {
     width: 100%;
     height: auto;
@@ -414,6 +422,10 @@
   }
 
   .content-img-contador-desktop{
+    display: none;
+  }
+
+  .card-contador-desktop{
     display: none;
   }
 
@@ -445,6 +457,11 @@
   .content-card-plans-desktop {
     display: none;
   }
+
+  .card-contador-desktop{
+    display: none;
+  }
+  
   .content-img-contador-desktop{
     display: none;
   }

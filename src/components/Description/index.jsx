@@ -85,23 +85,77 @@ export function Description() {
           <strong className="title-description-strong">GESTÃO</strong> do seu
           negócio!
         </h1>
-        {descriptions.map((desc, index) => (
-          <div key={index} className="description-description desktop-card">
-            <div className="content-img-description">
-              <Image
-                className="img-description"
-                src={desc.imageSrc}
-                width={290}
-                height={260}
-                alt={desc.imageAlt}
-              />
+        <div className="gif-desktop-card">
+          <div className="content-gifs-description">
+            <Image
+              className="img-description"
+              src="/gif.gif"
+              width={500}
+              height={400}
+              alt="Sistema de gestão para Lojas de celulares e equipamentos"
+            />
+          </div>
+          <div className="description-gifs-cards">
+            <div className="content-description-texts-gifs">
+              <span className="pre-footer-description">
+                Gestão de Vendas (com NF-e e NFC-e)
+              </span>
+              <span className="description-text-description">
+                O seu processo de venda muito mais rápido, eficiente e seguro!
+                Emissão da NFC-e e NF-e integrado.
+              </span>
             </div>
-            <div className="content-description-texts">
-              <span className="pre-footer-description">{desc.pretext}</span>
-              <span className="description-text-description">{desc.text}</span>
+            <div className="content-description-texts-gifs">
+              <span className="pre-footer-description">
+                Gestão Financeira Completa com controle de Caixa
+              </span>
+              <span className="description-text-description">
+                Controle total das finanças da sua empresa em tempo real para
+                decisões ​mais seguras e estratégicas!
+              </span>
+            </div>
+            <div className="content-description-texts-gifs">
+              <span className="pre-footer-description">
+                Gestão de Estoque com importação do XML
+              </span>
+              <span className="description-text-description">
+                Gerencie seu estoque de forma eficiente e economize tempo com a
+                ​importação automática de XML e a atualizações automática dos
+                produtos.
+              </span>
+            </div>
+            <div className="content-description-texts-gifs">
+              <span className="pre-footer-description">
+                Ordem de Serviço com emissão da NFS-e
+              </span>
+              <span className="description-text-description">
+                Organize suas ordens de serviço e orçamentos com mais agilidade
+                e ​profissionalismo.
+              </span>
             </div>
           </div>
-        ))}
+        </div>
+        <div className="content-desktop-cards">
+          {descriptions.map((desc, index) => (
+            <div key={index} className="description-description desktop-card">
+              <div className="content-img-description">
+                <Image
+                  className="img-description"
+                  src={desc.imageSrc}
+                  width={290}
+                  height={260}
+                  alt={desc.imageAlt}
+                />
+              </div>
+              <div className="content-description-texts">
+                <span className="pre-footer-description">{desc.pretext}</span>
+                <span className="description-text-description">
+                  {desc.text}
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
       <div className="carousel-indicators">
         {descriptions.map((_, index) => (
