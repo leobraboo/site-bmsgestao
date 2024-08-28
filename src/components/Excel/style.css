@@ -131,6 +131,10 @@
     height: 280px;
   }
 
+  .content-img-excel-desktop{
+    display: none;
+  }
+
   .description-excel span {
     text-align: center;
   }

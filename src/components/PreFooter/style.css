@@ -150,6 +150,14 @@
     padding: 1rem;
     gap: 10px;
   }
+  .content-pre-footer {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
   .pre-footer-desktop {
     display: none;
   }

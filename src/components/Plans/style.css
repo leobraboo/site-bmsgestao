@@ -364,6 +364,10 @@
     display: none;
   }
 
+  .content-img-contador-desktop{
+    display: none;
+  }
+
   .card-Plans {
     width: 100%;
     height: auto;
@@ -381,6 +385,9 @@
 @media screen and (max-width: 370px) {
   .content-Plans {
     width: calc(100vw - 21rem);
+  }
+  .content-img-contador-desktop{
+    display: none;
   }
 
   .content-card-plans-desktop {
@@ -404,6 +411,10 @@
 @media screen and (max-width: 380px) and (max-height: 670px) {
   .content-Plans {
     width: calc(100vw - 21rem);
+  }
+
+  .content-img-contador-desktop{
+    display: none;
   }
 
   .content-card-plans-desktop {
@@ -432,6 +443,9 @@
     padding: 3rem 1rem 0.5rem 1rem;
   }
   .content-card-plans-desktop {
+    display: none;
+  }
+  .content-img-contador-desktop{
     display: none;
   }
 
