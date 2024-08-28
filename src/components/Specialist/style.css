@@ -63,11 +63,11 @@
     padding: 3rem 6rem;
     height: 90vh;
     background-color: rgb(234, 234, 234);
-    clip-path: polygon(100% 0%, 100% 97%, 50% 100%, 0% 97%, 0% 0%, 50% 3%);
+    clip-path: polygon(100% 0%, 100% 97%, 50% 100%, 0% 97%, 0% 0%, 50% 10%);
   }
   .content-img-specialist-desktop{
     width: 45%;
-    clip-path: polygon(41% 0%,87% 18%,100% 100%,26% 91%);
+    clip-path: polygon(51% 0%,90% 10%,100% 100%,23% 95%);
   }
   .content-img-specialist{
     display: none;

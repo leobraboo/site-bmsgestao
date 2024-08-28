@@ -91,8 +91,8 @@ export function Description() {
               <Image
                 className="img-description"
                 src={desc.imageSrc}
-                width={300}
-                height={280}
+                width={290}
+                height={260}
                 alt={desc.imageAlt}
               />
             </div>

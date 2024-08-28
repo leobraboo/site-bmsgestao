@@ -6,7 +6,7 @@
   padding: 5.5rem 0;
   justify-content: center;
   background-color: #f2a83e;
-  clip-path: polygon(100% 0%,100% 95%,50% 100%,0.00% 95.00%,0% 0%,50.00% 5.00%);
+  clip-path: polygon(100% 0%, 100% 95%, 50% 100%, 0% 95%, 0% 0%, 50% 5%);
 }
 
 .description-sectors {
@@ -73,9 +73,14 @@
   flex-direction: column;
   bottom: 0;
   width: 100%;
-  padding:  10px 10px 0px 10px;
+  padding: 10px 10px 0px 10px;
   height: 30vh;
-  background: linear-gradient(to top, #006494, #006594b3, rgba(0, 22, 166, 0.05));
+  background: linear-gradient(
+    to top,
+    #006494,
+    #006594b3,
+    rgba(0, 22, 166, 0.05)
+  );
   color: #fff;
   font-size: 1.7rem;
   text-align: center;
@@ -121,7 +126,14 @@
   line-height: 24px;
   color: #fff;
   padding: 1rem 0.5rem;
-
+}
+@media screen and (min-width: 768px) {
+  .description-sectors {
+    width: 90%;
+  }
+  .content-img-sectors {
+    gap: 50px;
+}
 }
 
 @media screen and (max-width: 768px) {
