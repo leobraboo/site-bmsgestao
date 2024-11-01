@@ -8,23 +8,17 @@ export function Plans() {
 
   const plans = [
     {
-      name: "Simples",
-      price: "119,90",
+      name: "Básico",
+      price: "129,90",
       oldPrice: "199,90",
       description:
         "Ideal para realizar a gestão do seu negócio que não precisa da emissão fiscal.",
     },
     {
       name: "Completo",
-      price: "199,90",
+      price: "229,90",
       oldPrice: "259,90",
       description: "Gestão completa com as emissões e relatórios fiscais.",
-    },
-    {
-      name: "Personalizado",
-      price: "Á consultar",
-      oldPrice: "Á consultar",
-      description: "Um plano personalizado para o seu negócio.",
     },
   ];
 
